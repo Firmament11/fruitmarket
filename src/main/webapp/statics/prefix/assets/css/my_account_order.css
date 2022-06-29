@@ -1,0 +1,61 @@
+
+.m-order ul{
+    list-style: none;
+    margin:0px;
+    padding: 0;
+    width:auto;
+}
+
+/*订单*/
+.m-order{ overflow:hidden; margin-bottom:15px;margin-top: 15px;background:#fff;}
+.m-order li{ float:left; width:20%; color: #4B4B4B; text-align: center;}
+.m-order li a{ padding: 10px 0px;vertical-align: middle;display: block;color: #4B4B4B;text-align: center;}
+.m-order li a i img{width:30px ;height: 30px;margin: auto;}
+.m-order li a span{height: 18px; line-height: 18px; display: block;}
+a em.m-num { margin-left: 4px;color: #F40;}
+.m-order .i-load-more-item-shadow {background: none;color: #666;}
+.s-bar { font-size:15px; border-bottom: 1px solid #ccc;position: relative;padding: 11px 0px 8px;margin:0px 10px ;}
+.i-load-more-item-shadow {position: absolute;right:0px;top: 10px;height: 20px; background: #FFF none repeat scroll 0% 0%;font-size: 14px;line-height: 20px; color: #4B4B4B;}
+
+
+.m-order li a {
+    width:165px;
+    height: 72px;
+    padding: 10px 0px;
+    vertical-align: middle;
+    display: block;
+    color: #4B4B4B;
+    text-align: center;
+}
+
+.i-load-more-item-shadow {
+   float:right;
+}
+
+/*我的交易 订单图标*/
+.m-order li a i img {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+
+.m-logistics{
+    display:none;
+}
+/*物流*/
+.m-logistics{display:block;background:#fff ;}
+.lg-list{ margin-bottom:5px;}
+.s-content { position: relative; overflow: hidden;background: #fff;}
+.lg-item { border-top: 1px solid #E8EEF2;padding: 13px 10px 13px 15px; overflow:hidden;}
+.item-info, .m-logistics .lg-info { position: relative; float: left;}
+.item-info img {width: 70px;height: 70px; vertical-align: top;}
+.lg-info {padding-left: 30px; float:left;}
+.lg-confirm {float: right;}
+.lg-info p { height: 38px;line-height: 38px;}
+.m-logistics time { font-size: 12px;}
+.lg-detail-wrap {display: inline;position: relative;}
+.hide {display: none !important;}
+.i-btn-typical {display: inline-block;color: #575757;font-size: 12px; padding: 3px 6px; border: 1px solid #D1D1D1;}
+
+

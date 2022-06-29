@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LssgProject:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e128ea65-b0a4-4302-a2fd-7f0cc19d4ef7" name="Default Changelist" comment="1、删除cart数据表&#10;2、修改了order等数据表" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lssg" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1sLdGapNWLvIQKso4kU1QGYA3KY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589269630768" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25977013" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BaiduNetdiskDownload\蔬菜项目\LssgProject\src\main\webapp\uploadfiles\notice" />
+      <recent name="D:\BaiduNetdiskDownload\蔬菜项目\LssgProject\lib" />
+      <recent name="D:\javaStudy\IdeaProjects\LssgProject\src\main\webapp\WEB-INF\views\suffixViews\article" />
+      <recent name="D:\javaStudy\IdeaProjects\LssgProject\src\main\webapp\WEB-INF\views\suffixViews\admin" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lianwei.lssg.filter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaStudy\ssm\LssgProject\src\main\java\com\lianwei\lssg\entity" />
+      <recent name="D:\javaStudy\IdeaProjects\LssgProject\src\main\webapp\statics" />
+      <recent name="D:\javaStudy\IdeaProjects\LssgProject\src\main\webapp\statics\prefix\assets\js" />
+      <recent name="D:\javaStudy\IdeaProjects\LssgProject\src\main\webapp\statics\prefix\assets\img" />
+      <recent name="D:\javaStudy\IdeaProjects\LssgProject\src\main\webapp\statics\prefix\assets\js\vendor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.66">
+    <configuration name="DateUtils" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.lianwei.lssg.utils.DateUtils" />
+      <module name="LssgProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lianwei.lssg.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.66" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.66" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=utf-8" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="LssgProject:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_LssgProject_2" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+        <option name="PRESERVE_SESSIONS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="2198" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="LssgProject:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DateUtils" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.66" />
+    </list>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\VULCAN\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e128ea65-b0a4-4302-a2fd-7f0cc19d4ef7" name="Default Changelist" comment="" />
+      <created>1588842354811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588842354811</updated>
+      <workItem from="1588842357553" duration="2135000" />
+      <workItem from="1588844506462" duration="220000" />
+      <workItem from="1588844733826" duration="3867000" />
+      <workItem from="1588858713450" duration="10598000" />
+      <workItem from="1588892693493" duration="36771000" />
+      <workItem from="1588980938654" duration="37606000" />
+      <workItem from="1589069130001" duration="50109000" />
+      <workItem from="1589151828861" duration="32161000" />
+      <workItem from="1589265285123" duration="4208000" />
+      <workItem from="1589380958263" duration="1953000" />
+      <workItem from="1589382956509" duration="750000" />
+      <workItem from="1589383736686" duration="1125000" />
+      <workItem from="1589463776928" duration="3489000" />
+      <workItem from="1589513238086" duration="1272000" />
+      <workItem from="1589533006563" duration="755000" />
+      <workItem from="1589541857944" duration="1010000" />
+      <workItem from="1594523928984" duration="112000" />
+      <workItem from="1620655712209" duration="180000" />
+      <workItem from="1620656507001" duration="2408000" />
+      <workItem from="1620696299417" duration="3682000" />
+      <workItem from="1620706791451" duration="248000" />
+      <workItem from="1620707164044" duration="72000" />
+      <workItem from="1620707263481" duration="940000" />
+      <workItem from="1620971179204" duration="9428000" />
+      <workItem from="1620982150647" duration="6944000" />
+      <workItem from="1621838725356" duration="1126000" />
+      <workItem from="1622356592941" duration="927000" />
+      <workItem from="1622362963234" duration="3698000" />
+      <workItem from="1632110128619" duration="1199000" />
+      <workItem from="1645603505926" duration="487000" />
+      <workItem from="1645673430530" duration="7588000" />
+      <workItem from="1646014416658" duration="122000" />
+      <workItem from="1647758768415" duration="5170000" />
+      <workItem from="1647787473573" duration="1805000" />
+      <workItem from="1647919473690" duration="2416000" />
+      <workItem from="1648604346852" duration="918000" />
+      <workItem from="1648606163564" duration="13755000" />
+      <workItem from="1649294779797" duration="3251000" />
+      <workItem from="1649507591938" duration="3848000" />
+      <workItem from="1649583364882" duration="1362000" />
+      <workItem from="1649656371038" duration="5005000" />
+      <workItem from="1649812720152" duration="11455000" />
+      <workItem from="1649899267806" duration="1254000" />
+      <workItem from="1649900634010" duration="9186000" />
+      <workItem from="1648776981702" duration="1196000" />
+      <workItem from="1651302032689" duration="6076000" />
+      <workItem from="1651549433570" duration="5781000" />
+      <workItem from="1651624073831" duration="4155000" />
+      <workItem from="1649147606966" duration="2607000" />
+      <workItem from="1649195912972" duration="11788000" />
+      <workItem from="1649227999123" duration="1310000" />
+      <workItem from="1649237460092" duration="12796000" />
+      <workItem from="1652072996398" duration="6048000" />
+      <workItem from="1652080121938" duration="14693000" />
+      <workItem from="1652145819319" duration="25274000" />
+      <workItem from="1652179307075" duration="35000" />
+      <workItem from="1652188067815" duration="5415000" />
+      <workItem from="1652232834638" duration="19668000" />
+      <workItem from="1652321327442" duration="5456000" />
+      <workItem from="1652367415801" duration="1763000" />
+      <workItem from="1652450804520" duration="1191000" />
+      <workItem from="1652529620977" duration="39305000" />
+      <workItem from="1652631743482" duration="235000" />
+      <workItem from="1652665165583" duration="13862000" />
+      <workItem from="1652701735229" duration="2380000" />
+      <workItem from="1652751712275" duration="4014000" />
+      <workItem from="1652792285288" duration="2702000" />
+      <workItem from="1652862951120" duration="943000" />
+      <workItem from="1652928185666" duration="6099000" />
+      <workItem from="1652965125406" duration="1918000" />
+      <workItem from="1653012893567" duration="5877000" />
+      <workItem from="1653060844559" duration="2404000" />
+      <workItem from="1653274972384" duration="1011000" />
+      <workItem from="1653312761373" duration="3582000" />
+      <workItem from="1653379962488" duration="3037000" />
+      <workItem from="1653896238515" duration="663000" />
+      <workItem from="1654960182044" duration="491000" />
+      <workItem from="1655483129117" duration="670000" />
+      <workItem from="1655607628700" duration="8206000" />
+      <workItem from="1655703461631" duration="3706000" />
+      <workItem from="1655729745795" duration="681000" />
+      <workItem from="1647841043517" duration="2149000" />
+      <workItem from="1656069471677" duration="661000" />
+      <workItem from="1656475029943" duration="5327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1、删除cart数据表&#10;2、修改了order等数据表" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、删除cart数据表&#10;2、修改了order等数据表" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="641" y="85" key="#Tomcat_8.5.61" timestamp="1651302135692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="641" y="85" key="#Tomcat_8.5.61/0.0.1920.1040@0.0.1920.1040" timestamp="1651302135692" />
+    <state x="734" y="396" key="#Tomcat_Server" timestamp="1652630298865">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="396" key="#Tomcat_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1652630298865" />
+    <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1652616660069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652616660069" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1655629408837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1655629408837" />
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1652616669681">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1652616669681" />
+    <state x="665" y="157" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1652633420989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="157" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1652633420989" />
+    <state x="532" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1649837066717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1649837066717" />
+    <state x="736" y="386" width="447" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1652665356032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="386" width="447" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1652665356032" />
+    <state x="723" y="352" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1652074801434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="723" y="352" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652074801434" />
+    <state width="1286" height="575" key="DebuggerActiveHint" timestamp="1652669263006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1286" height="575" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1652669263006" />
+    <state x="442" y="327" key="FileChooserDialogImpl" timestamp="1656070137785">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="442" y="327" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1656070137785" />
+    <state width="1677" height="616" key="GridCell.Tab.0.bottom" timestamp="1652970513071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
+    <state width="1677" height="616" key="GridCell.Tab.0.center" timestamp="1652970513071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
+    <state width="1677" height="616" key="GridCell.Tab.0.left" timestamp="1652970513071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
+    <state width="1677" height="616" key="GridCell.Tab.0.right" timestamp="1652970513071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
+    <state width="1677" height="616" key="GridCell.Tab.1.bottom" timestamp="1652970513071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
+    <state width="1677" height="616" key="GridCell.Tab.1.center" timestamp="1652970513071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
+    <state width="1677" height="616" key="GridCell.Tab.1.left" timestamp="1652970513071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
+    <state width="1677" height="616" key="GridCell.Tab.1.right" timestamp="1652970513071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
+    <state width="1677" height="616" key="GridCell.Tab.2.bottom" timestamp="1652970513072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
+    <state width="1677" height="616" key="GridCell.Tab.2.center" timestamp="1652970513072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
+    <state width="1677" height="616" key="GridCell.Tab.2.left" timestamp="1652970513072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
+    <state width="1677" height="616" key="GridCell.Tab.2.right" timestamp="1652970513072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
+    <state width="1677" height="616" key="GridCell.Tab.3.bottom" timestamp="1652970513072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
+    <state width="1677" height="616" key="GridCell.Tab.3.center" timestamp="1652970513072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
+    <state width="1677" height="616" key="GridCell.Tab.3.left" timestamp="1652970513072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
+    <state width="1677" height="616" key="GridCell.Tab.3.right" timestamp="1652970513072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1677" height="616" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1652623829498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652623829498" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1655609352628">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1655609352628" />
+    <state x="681" y="261" width="582" height="524" key="StructurePopup" timestamp="1652260833456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="582" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1652260833456" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1652629585001">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1652629585001" />
+    <state x="884" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1652632767029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="884" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1652632767029" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/fileUploadController.class</url>
+          <line>28</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lianwei/lssg/service/before/LssgOrdersServiceImpl.java</url>
+          <line>228</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lianwei/lssg/utils/MallWebMvcConfig.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="java.util.LinkedHashMap$Entry" fieldName="value" />
+        <PinnedItemInfo typeName="java.lang.String" fieldName="value" />
+        <PinnedItemInfo typeName="org.apache.shiro.web.servlet.ShiroHttpSession" fieldName="servletContext" />
+        <PinnedItemInfo typeName="org.apache.commons.fileupload.disk.DiskFileItem" fieldName="headers" />
+        <PinnedItemInfo typeName="com.lianwei.lssg.entity.LssgOrders" fieldName="lssgAddress" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LssgProject$Tomcat_8_5_61.ic" NAME="Tomcat 8.5.61 Coverage Results" MODIFIED="1649149872512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/LssgProject$Tomcat_8_5_66.ic" NAME="Tomcat 8.5.66 Coverage Results" MODIFIED="1652633743607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

@@ -5,8 +5,30 @@
       <artifact name="LssgProject:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e128ea65-b0a4-4302-a2fd-7f0cc19d4ef7" name="Default Changelist" comment="1、删除cart数据表&#10;2、修改了order等数据表" />
+    <list default="true" id="e128ea65-b0a4-4302-a2fd-7f0cc19d4ef7" name="Default Changelist" comment="1、删除cart数据表&#10;2、修改了order等数据表">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +66,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -293,11 +318,26 @@
       <workItem from="1647841043517" duration="2149000" />
       <workItem from="1656069471677" duration="661000" />
       <workItem from="1656475029943" duration="5327000" />
+      <workItem from="1656495348016" duration="3652000" />
+      <workItem from="1656671203239" duration="170000" />
+      <workItem from="1659446601632" duration="3262000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1、删除cart数据表&#10;2、修改了order等数据表" />
@@ -328,10 +368,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="157" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1652633420989" />
-    <state x="532" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1649837066717">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="532" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1649837066717" />
     <state x="736" y="386" width="447" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1652665356032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -424,14 +460,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="582" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1652260833456" />
+    <state x="334" y="129" key="new project wizard" timestamp="1656671376802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1656671376802" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1652629585001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1652629585001" />
-    <state x="884" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1652632767029">
+    <state x="884" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1659446845832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="884" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1652632767029" />
+    <state x="884" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1659446845832" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

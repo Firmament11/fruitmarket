@@ -245,7 +245,6 @@ $(".header").after($cartContainer);
                     $this.val($thisVal);
                 };
                 shopCart.calcInfo();
-                console.log($this.parent().find(shopCart.button))
                 shopCart.buttonCss($this.parent().find(shopCart.button), parseInt($this.val()));
             });
         },
@@ -307,7 +306,6 @@ $(".header").after($cartContainer);
                     shopCart.curUnitBtn.closest(shopCart.goodsTr).remove();
 
                     if (shopCart.goodsList.eq(curLiIndex).find(shopCart.goodsTr).length == 0) {
-                        console.log(1)
                         shopCart.goodsList.eq(curLiIndex).remove();
                     };
                 };

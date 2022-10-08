@@ -83,7 +83,6 @@
         form.on('submit(userForm)', function () {
             //1.获取数据
             var obj = serializeArrayToObject('ff');
-            console.log(obj);
             //2提交ajax请求修改信息
             $.ajax({
                 type: 'post',

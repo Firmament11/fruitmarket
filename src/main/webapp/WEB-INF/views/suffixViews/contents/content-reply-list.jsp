@@ -192,13 +192,10 @@
             switch (obj.event) {
                 case 'dels':
                     var data = checkStatus.data;
-                    console.log("data--->"+data);
                     var list = [];
                     for(var i in data){
-                        console.log("i---->"+i+"\tdata-->"+data[i].productId);
                         list.push(data[i].productId)
                     }
-                    console.log("list--->"+list);
                     layer.confirm('真的删除选中行么', function (index) {
                         deleteRows(list);
                         //layer.close(index);

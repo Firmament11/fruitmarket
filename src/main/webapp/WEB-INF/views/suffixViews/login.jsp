@@ -44,8 +44,6 @@
             //   });
             //监听提交
             form.on('submit(login)', function(data){
-                console.log("data.field---->"+data.field.loginUsername);
-                console.log("data.field---->"+data.field.loginPassword);
                 $.ajax({
                     url:"<%=basePath%>/admin/login",
                     data:JSON.stringify(data.field),

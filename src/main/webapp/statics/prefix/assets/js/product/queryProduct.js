@@ -20,11 +20,8 @@ function querySmoeProduct(query,currentPage) {
               success : function (data) {
                   total = data.total;
                   if(data.list.length>0) {
-                      console.log("data--->"+data);
                       var html = "";
                       for(var i=0;i<data.list.length;i++) {
-                          console.log("data.list[i].productName---->"+data.list[i].productName);
-                          console.log("data.list[i].lssgProductClass.productClassName---->"+data.list[i].lssgProductClass.productClassName);
                           html += " <div class=\"col-lg-3 col-md-4 col-sm-6 col-12 \">\n" +
                               "                        <div class=\"single_product\">\n" +
                               "                            <div class=\"product_thumb\">\n" +
@@ -81,9 +78,6 @@ layui.use(['laypage', 'layer'], function(){
         ,theme: '#71cc2b'
         ,curr: location.hash.replace('#!fenye=', '') //获取起始页
         ,jump: function(obj, first){
-            //obj包含了当前分页的所有参数，比如：
-            console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
-            console.log(obj.limit); //得到每页显示的条数
 
             //首次不执行
             if(!first){

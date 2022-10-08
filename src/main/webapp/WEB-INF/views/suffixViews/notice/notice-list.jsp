@@ -127,7 +127,6 @@
                     //绑定类别下拉框
                     if (data != null)
                         for (var i = 0; i < data.length; i++) {
-                            console.log("data[i].publicClassId"+data[i].publicClassId);
                             $("#publicClassName").append("<option value='" + data[i].publicClassId + "'>" + data[i].publicClassName + "</option>");
                         }
                     layui.use(['form'], function () {
@@ -150,10 +149,6 @@
             var statTime = $('#start').val();
             var endTime = $('#end').val();
             var publicClassName = $('#publicClassName option:selected').val();
-            console.log("publicInfoName------>"+publicInfoName);
-            console.log("statTime------>"+statTime);
-            console.log("endTime------>"+endTime);
-            console.log("publicClassName------>"+publicClassName);
             renderTable(publicInfoName,statTime,endTime,publicClassName);
         });
         /**
@@ -228,13 +223,10 @@
             switch (obj.event) {
                 case 'getCheckData':
                     var data = checkStatus.data;
-                    console.log("data--->"+data);
                     var list = [];
                     for(var i in data){
-                        console.log("i---->"+i+"\tdata-->"+data[i].publicInfoId);
                         list.push(data[i].publicInfoId)
                     }
-                    console.log("list--->"+list);
                     layer.confirm('真的删除选中行么', function (index) {
                         deleteRows(list);
                         //layer.close(index);
@@ -264,7 +256,6 @@
 
 //               请求成功的回调
                 success: function (data) {
-                    console.log("data--->"+data);
                     if (data > 0) {
                         table.reload('demo');
                     }
@@ -284,7 +275,6 @@
                 dataType: "JSON",
                 contentType: "application/json; charset=utf-8",
                 success: function (data) {
-                    console.log("data--->"+data);
                     if (data > 0) {
                         layer.msg("您已经成功删除"+data+"条记录！", {
                             icon: 1,
@@ -304,20 +294,14 @@
         //监听行工具事件
         table.on('tool(test)', function (obj) {
             var data = obj.data;
-            console.log("data--->"+data);
-            for(var i in data){
-                console.log("i---->"+i+"\tdata-->"+data[i]);
-            }
             //执行删除操作
             if (obj.event === 'del') {
                 layer.confirm('真的删除行么', function (index) {
-                    console.log("data.publicInfoId--->"+data.publicInfoId);
                     deleteRow(data.publicInfoId);
                     layer.close(index);
                 });
             } else if (obj.event === 'edit') {
                 var publicInfoId1= data.publicInfoId;
-                console.log("publicInfoId1---->"+publicInfoId1);
                 var tourl = "<%=basePath%>/page/toNoticeEdit?publicInfoId="+publicInfoId1;
                 layer.open({
                     type: 2,
@@ -327,7 +311,6 @@
                 })
             }else if (obj.event === 'state') {
                 var publicInfoId= data.publicInfoId;
-                console.log("publicInfoId---->"+publicInfoId);
                 member_stop(this,publicInfoId,data.publicInfoState)
             }
             //执行修改操作
@@ -348,7 +331,6 @@
                         traditional: true,
                         dataType: "JSON",
                         success: function (data) {
-                            console.log("data--->"+data);
                             if (data > 0) {
                                 //发异步把用户状态进行更改
                                 $(obj).attr('title','停用');
@@ -372,7 +354,6 @@
                         traditional: true,
                         dataType: "JSON",
                         success: function (data) {
-                            console.log("data--->"+data);
                             if (data > 0) {
                                 //发异步把用户状态进行更改
                                 $(obj).attr('title','启用');

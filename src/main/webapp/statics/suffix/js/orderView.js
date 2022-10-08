@@ -23,15 +23,6 @@ function showOrder(orderId) {
             var addressInfo = "";
             var productList = "";
             var productPrice = "";
-
-            console.log("data--->"+data);
-            console.log("data.orderId--->"+data.orderId);
-            console.log("data.lssgUserLogin--->"+data.lssgUserLogin);
-            console.log("data.lssgOrderAction--->"+data.lssgOrderAction);
-            console.log("data.lssgAddress--->"+data.lssgAddress);
-            console.log("data.lssgOrderItemList--->"+data.lssgOrderItemList);
-
-            //
             $('.orderStu').html('');
             if(data.lssgOrderAction.orderStatus==1){
                 $('.orderStu').html("已完成")
@@ -65,8 +56,6 @@ function showOrder(orderId) {
 
             //"++"
             for(var i=0;i<data.lssgOrderItemList.length;i++){
-                console.log("data.lssgOrderItemList[i].orderItemId--->"+data.lssgOrderItemList[i].orderItemId);
-                console.log("data.lssgOrderItemList[i].lssgProduct.productPhoto--->"+data.lssgOrderItemList[i].lssgProduct.productPhoto);
                 productList += "<tr>\n" +
                     "                    <td><img src='http://localhost:8080/uploadfiles/productImg/"+data.lssgOrderItemList[i].lssgProduct.productPhoto+"' style='width: 60px;height: 60px;'></td>\n" +
                     "                    <td>"+data.lssgOrderItemList[i].lssgProduct.productName+"</td>\n" +

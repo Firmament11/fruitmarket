@@ -59,13 +59,13 @@
     <%--<a style="text-decoration:none" title="停用">
         <i class="layui-icon">&#xe601;</i>
     </a>--%>
-    <%--<a class="layui-btn layui-btn-primary layui-btn-xs " href="javascript:void(0)" lay-event="edit">编辑</a>--%>
-    <%--<a title="编辑" class="layui-btn layui-btn-xs" style="text-decoration:none" lay-event="edit" >
+    <a class="layui-btn layui-btn-primary layui-btn-xs " href="javascript:void(0)" lay-event="edit">编辑</a>
+    <a title="编辑" class="layui-btn layui-btn-xs" style="text-decoration:none" lay-event="edit" >
         <i class="layui-icon">&#xe642;</i>
-    </a>--%>
-    <%--<a title="删除" style="text-decoration:none" class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">
+    </a>
+    <a title="删除" style="text-decoration:none" class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">
         <i class="layui-icon">&#xe640;</i>
-    </a>--%>
+    </a>
 </script>
 
 <script type="text/html" id="barDemo1">
@@ -185,7 +185,6 @@
                         title: '用户信息新增',
                         area: ['100%', '100%']
                     })
-
             }
         });
 
@@ -197,7 +196,6 @@
             var productIsShow = data.elem.attributes['switch_payment_state'].nodeValue;
 
             //TODO 此时进行ajax的服务器访问，如果返回数据正常，则进行后面代码的调用
-
             if(productIsShow==1){
                 var data1 = {"productIsShow":0,"productClassId":productClassId};
                 $.ajax({
@@ -216,7 +214,6 @@
                         }
                     }
                 });
-
             }else{
                 var data2 = {"productIsShow":1,"productClassId":productClassId};
                 $.ajax({
@@ -232,18 +229,12 @@
                             form.render('select'); //刷新select选择框渲染
                             table.reload('member');
                             layer.msg('已禁用!',{icon: 5,time:1000});
-
                         }
                     }
                 });
-
             }
-
         });
-
     });
-
-
 
 </script>
 </body>

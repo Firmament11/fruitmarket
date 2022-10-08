@@ -147,7 +147,6 @@
                 layer.msg("文章分类名称不能为空！",{icon:5,time:2000});return false;
             }
             var data = data.field;
-            console.log("data--->"+data);
             $.ajax({
                 type:"post",
                 url:"<%=basePath%>/publicClass/addOnePublicClass",
@@ -242,7 +241,6 @@
 
             //1.获取数据
             var obj = serializeArrayToObject('publicClass');
-            console.log(obj);
             //2提交ajax请求修改信息
             $.ajax({
                 type: 'post',

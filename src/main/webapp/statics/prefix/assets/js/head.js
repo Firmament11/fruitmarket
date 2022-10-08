@@ -30,10 +30,7 @@ function showUserInfo() {
             timeout: 20000,
             url: "/userLoginInfo/findOneUserInfo",
             success : function (result) {
-                console.log("result--->"+result);
-
                     $(".user-head").attr("src","/uploadfiles/userImg/"+result.userImg);
-
             },
             error : function (data){
                // alert(data.responseText);
@@ -57,10 +54,8 @@ function showProductClassList() {
             var productHtml = "";
             var k = 0;
             var i=0;
-            console.log("result--->"+result);
             if(result!=null) {
                 for(i;i<result.length;i++){
-                    console.log("result[i].productClassName--->"+result[i].productClassName);
                     classHtml += "<li><a href=\"/beforePage/toFruitsList?productClassId="+result[i].productClassId+"\">"+result[i].productClassName+"</a></li>";
                 }
 
@@ -139,7 +134,6 @@ function queryProduct() {
                 timeout: 20000,
                 url: "/userLoginInfo/findOneUserInfo",
                 success : function (result) {
-                    console.log("result--->"+result);
                     if(result!=null) {
 
                     }
@@ -169,7 +163,6 @@ function countCollect() {
             timeout: 20000,
             url: "/collect/countCollect",
             success : function (result) {
-                console.log("result--->"+result);
                 if(result>0) {
                     $(".header_wishlist .lnr-heart").html("");
                     $(".header_wishlist .lnr-heart").append("<span class=\"item_count\">"+result+"</span>")
@@ -195,7 +188,6 @@ function countCart() {
             timeout: 20000,
             url: "/cart/countCartItme",
             success : function (result) {
-                console.log("result----000000---->"+result);
                 if(result>0) {
                     $(".mini_cart_wrapper .lnr-cart").html("");
                     $(".mini_cart_wrapper .lnr-cart").append("<span class=\"item_count\">"+result+"</span>")

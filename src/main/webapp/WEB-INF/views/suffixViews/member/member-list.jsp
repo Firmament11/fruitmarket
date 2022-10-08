@@ -93,8 +93,6 @@
 
         $("#searchByquery").on("click",function(){
             var userName = $('.userName').val();
-
-            console.log("userName------>"+userName);
             renderTable(userName);
         });
         /**
@@ -187,13 +185,10 @@
             switch (obj.event) {
                 case 'getCheckData':
                     var data = checkStatus.data;
-                    console.log("data--->"+data);
                     var list = [];
                     for(var i in data){
-                        console.log("i---->"+i+"\tdata-->"+data[i].userInfoId);
                         list.push(data[i].userInfoId)
                     }
-                    console.log("list--->"+list);
                     layer.confirm('真的删除选中行么', function (index) {
                         deleteRows(list);
                         //layer.close(index);
@@ -225,7 +220,6 @@
 
 //               请求成功的回调
                 success: function (data) {
-                    console.log("data--->"+data);
                     if (data > 0) {
                         table.reload('demo');
                     }
@@ -245,7 +239,6 @@
                 dataType: "JSON",
                 contentType: "application/json; charset=utf-8",
                 success: function (data) {
-                    console.log("data--->"+data);
                     if (data > 0) {
                         layer.msg("您已经成功删除"+data+"条记录！", {
                             icon: 1,
@@ -265,21 +258,14 @@
         //监听行工具事件
         table.on('tool(test)', function (obj) {
             var data = obj.data;
-            console.log("data--->"+data);
-            for(var i in data){
-                console.log("i---->"+i+"\tdata-->"+data[i]);
-            }
             //执行删除操作
             if (obj.event === 'del') {
                 layer.confirm('真的删除行么', function (index) {
-                    console.log("data.userInfoId--->"+data.userInfoId);
                     deleteRow(data.userInfoId);
                     layer.close(index);
                 });
             } else if (obj.event === 'edit') {
                 var userInfoId= data.userInfoId;
-                console.log("userInfoId---->"+userInfoId);
-                console.log("data.lssgUserLogin.userState---->"+data.lssgUserLogin.userState);
                 member_stop(this,userInfoId,data.lssgUserLogin.userState)
             }
             //执行修改操作
@@ -300,7 +286,6 @@
                         type: 'post',
                         dataType: "JSON",
                         success: function (data) {
-                            console.log("data--->"+data);
                             if (data > 0) {
                                 $(obj).text("禁用");
                                 //发异步把用户状态进行更改
@@ -324,7 +309,6 @@
                         type: 'post',
                         dataType: "JSON",
                         success: function (data) {
-                            console.log("data--->"+data);
                             if (data > 0) {
                                 $(obj).text("启用");
 

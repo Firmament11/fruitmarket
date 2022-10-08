@@ -109,7 +109,6 @@
                     //绑定班级下拉框
                     if (data != null)
                         for (var i = 0; i < data.length; i++) {
-                            console.log("data[i].productClassId--->"+data[i].productClassId);
                             $("#productSelect").append("<option value='" + data[i].productClassId + "'>" + data[i].productClassName + "</option>");
                         }
                     layui.use(['form'], function () {

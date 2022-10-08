@@ -156,7 +156,6 @@
                     //data: object,
                     //请求成功的回调
                     success: function (data) {
-                        // console.log("data--->"+data);
 
                        /* $('#ff').form('load',data);*/
                         $('#ff').form('load',{
@@ -189,7 +188,6 @@
             form.on('submit(paymentForm)', function () {
                 //1.获取数据
                 var obj = serializeArrayToObject('ff');
-                console.log(obj);
                 //2提交ajax请求修改信息
                 $.ajax({
                     type: 'post',

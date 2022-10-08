@@ -278,7 +278,6 @@
                         //绑定类别下拉框
                         if (data != null)
                             for (var i = 0; i < data.length; i++) {
-                                console.log("data[i].publicClassId"+data[i].publicClassId);
                                 $("#publicClassId").append("<option value='" + data[i].publicClassId + "'>" + data[i].publicClassName + "</option>");
                             }
                         layui.use(['form'], function () {
@@ -293,7 +292,6 @@
             form.on('submit(publicInfoForm)', function () {
                 //1.获取数据
                 var obj = serializeArrayToObject('ff');
-                console.log(obj);
                 //2提交ajax请求修改信息
                 $.ajax({
                     type: 'post',

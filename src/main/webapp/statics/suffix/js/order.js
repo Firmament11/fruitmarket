@@ -20,9 +20,6 @@ $(function () {
             "endTime":endTime
         },
         success : function (data){
-            console.log("data--->"+data);
-            console.log("data.total-->"+data.total);
-            console.log("data.list-->"+data.list);
             total = data.total;
             var orderList = "";
             $('.ordersList tbody').html('');
@@ -52,16 +49,13 @@ $(function () {
             $("#demo1").show();*!/
 
         },error : function (data){
-            console.log(data.responseText);
 
         }
     });*/
     total = getListData(currentPage);
-    console.log("total-1-->"+total);
 });
 
 total = getListData(currentPage);
-console.log("total-- 2->"+total);
 
 function getListData(currentPage) {
 
@@ -108,7 +102,6 @@ function getListData(currentPage) {
             $('#demo1').hide();
         },error : function (data){
             console.log(data.responseText);
-
         }
 
     });
@@ -118,9 +111,6 @@ function getListData(currentPage) {
         statTime = $('.orderForm #start').val();
         endTime = $('.orderForm #end').val();
         orderId = $('.orderForm .orderId').val();
-        console.log("paymentName--->"+paymentName);
-        console.log("statTime--->"+statTime);
-        console.log("orderId--->"+orderId);
         $.ajax({
             url:"http://localhost:8080/order/showAllOrderByMap",
             dataType:"json",
@@ -135,11 +125,7 @@ function getListData(currentPage) {
                 "endTime":endTime
             },
             success : function (data){
-                console.log("data--->"+data);
-                console.log("data.total-->"+data.total);
-                console.log("data.list-->"+data.list);
                 total = data.total;
-                console.log("total-- 4->"+total);
                 var orderList = "";
                 $('.ordersList tbody').html('');
 
@@ -168,13 +154,10 @@ function getListData(currentPage) {
                 $('#demo2').hide();
                 $('#demo1').show();
             },error : function (data){
-                console.log(data.responseText);
-
             }
 
         });
     });
-    console.log("total-- 3->"+total);
     return total;
 }
 
@@ -186,9 +169,6 @@ function clickShow(currentPage){
         statTime = $('.orderForm #start').val();
         endTime = $('.orderForm #end').val();
         orderId = $('.orderForm .orderId').val();
-        console.log("paymentName--->"+paymentName);
-        console.log("statTime--->"+statTime);
-        console.log("orderId--->"+orderId);
         $.ajax({
             url:"http://localhost:8080/order/showAllOrderByMap",
             dataType:"json",
@@ -203,11 +183,7 @@ function clickShow(currentPage){
                 "endTime":endTime
             },
             success : function (data){
-                console.log("data--->"+data);
-                console.log("data.total-->"+data.total);
-                console.log("data.list-->"+data.list);
                 total = data.total;
-                console.log("total-- 4->"+total);
                 var orderList = "";
                 $('.ordersList tbody').html('');
 
@@ -236,16 +212,13 @@ function clickShow(currentPage){
                 $('#demo2').hide();
                 $('#demo1').show();
             },error : function (data){
-                console.log(data.responseText);
 
             }
 
         });
     });
-    console.log("total-- 6->"+total);
     return total;
 }*/
-//console.log("total1-- 7->"+total1);
 layui.use(['laypage', 'layer'], function(){
     var laypage = layui.laypage
         ,layer = layui.layer;
@@ -287,8 +260,6 @@ layui.use(['laypage', 'layer'], function(){
         ,curr: location.hash.replace('#!fenye=', '') //获取起始页
         ,jump: function(obj, first){
             //obj包含了当前分页的所有参数，比如：
-            console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
-            console.log(obj.limit); //得到每页显示的条数
 
             //首次不执行
             if(!first){
@@ -311,9 +282,6 @@ function show(currentPage1){
         statTime = $('.orderForm #start').val();
         endTime = $('.orderForm #end').val();
         orderId = $('.orderForm .orderId').val();
-        console.log("paymentName--->"+paymentName);
-        console.log("statTime--->"+statTime);
-        console.log("orderId--->"+orderId);
         /!*$.ajax({
             url:"http://localhost:8080/order/showAllOrderByMap",
             dataType:"json",
@@ -328,13 +296,8 @@ function show(currentPage1){
                 "endTime":endTime
             },
             success : function (data){
-                console.log("data--->"+data);
-                console.log("data.total-->"+data.total);
-                console.log("data.list-->"+data.list);
                 total = data.total;
-
             },error : function (data){
-                console.log(data.responseText);
 
             }
         });*!/
@@ -353,9 +316,6 @@ function show(currentPage1){
                 "endTime":endTime
             },
             success : function (data){
-                console.log("data--->"+data);
-                console.log("data.total-->"+data.total);
-                console.log("data.list-->"+data.list);
                 total1 = data.total;
                 var orderList = "";
                 $('.ordersList tbody').html('');
@@ -385,12 +345,10 @@ function show(currentPage1){
                 $("#demo1").show();
 
             },error : function (data){
-                console.log(data.responseText);
 
             }
         });
         //total1 = getListData(currentPage,paymentName,statTime,endTime,orderId);
-        console.log("total1--->"+total1);
     });
     return total1;
 }*/
@@ -407,8 +365,6 @@ function show(currentPage1){
         ,curr: location.hash.replace('#!fenye=', '') //获取起始页
         ,jump: function(obj, first){
             //obj包含了当前分页的所有参数，比如：
-            console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
-            console.log(obj.limit); //得到每页显示的条数
 
             //首次不执行
             if(!first){

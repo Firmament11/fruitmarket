@@ -401,7 +401,7 @@
         <where>
 
             <if test="orderId != null and orderId != ''">
-                t1.order_id = #{orderId},
+                t1.order_id = #{orderId}
             </if>
             <if test="PaymentName != null">
                 and t1.payment_name =#{PaymentName}

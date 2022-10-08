@@ -53,7 +53,6 @@ $(function(){
  * */
 function timeShow(doOrderTime,orderId) {
     var cdate = new Date().getTime();
-    console.log("cdate---->"+cdate);
     var newDate = (getEndTime(doOrderTime,0,0,30)-cdate)/1000;
     $(".container #dTime").attr("data",newDate);
 
@@ -81,11 +80,9 @@ function timeShow(doOrderTime,orderId) {
                     "orderId":orderId
                 },
                 success : function (result){
-                    console.log("result--->"+result);
                     if(result>0){
                         //跳转到另一个页面（购物车页面也行）
                     }
-
                 },error : function (data){
                     console.log(data.responseText);
 
@@ -173,7 +170,6 @@ function showPayment(paymentId) {
         },
         success : function (result){
             var payHtml = "";
-            console.log("result--->"+result);
             if(result!=null){
                payHtml = "<div class=\"pay-weixin\">\n" +
                    "                            <div class=\"p-w-hd\">"+result.paymentName+"</div>\n" +

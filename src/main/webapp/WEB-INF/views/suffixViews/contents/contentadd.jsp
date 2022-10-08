@@ -242,7 +242,6 @@
         /*layui.upload({
           url: './upload.json' //上传接口
           ,success: function(res){ //上传成功后的回调
-              console.log(res);
             $('#LAY_demo_upload').attr('src',res.url);
           }
         });*/
@@ -253,7 +252,6 @@
             ,accept: 'file' //普通文件
             ,done: function(res){
                 layer.msg('上传成功');
-                console.log(res);
             }
         });
 
@@ -315,7 +313,6 @@
             data:formData,
             success:function(data){
                 if(data.status == 1){
-                    console.log(data.image_name);
                     layer.closeAll('loading');
                     //layer.msg(data.info,{icon:1,time:1000});
                     $("#pimages").attr('src',data.image_name);

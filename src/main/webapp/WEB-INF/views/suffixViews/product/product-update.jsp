@@ -210,7 +210,7 @@
         <label class="layui-form-label">商品介绍</label>
         <div class="layui-input-block" id="productEffect">
             <textarea placeholder="请输入内容" id="myEditor" required name="productEffect"
-                      class="layui-textarea" style="width: 97%;height: 240px;"></textarea>
+                      class="layui-textarea" style="width: 100%;height: 300px;"></textarea>
         </div>
     </div>
 
@@ -241,7 +241,7 @@
             before: function (obj) {
                 //预读本地文件示例，不支持ie8
                 obj.preview(function (index, file, result) {
-                    $('#productPhoto').attr('src', result.path); //图片链接（base64）
+                    $('#productPhoto').attr('src', result); //图片链接（base64）
                 });
             }
             , done: function (res) {
@@ -287,7 +287,7 @@
             before: function (obj) {
                 //预读本地文件示例，不支持ie8
                 obj.preview(function (index, file, result) {
-                    $('#smallPhoto').attr('src', result.path); //图片链接（base64）
+                    $('#smallPhoto').attr('src', result); //图片链接（base64）
                 });
             }
             , done: function (res) {
@@ -332,7 +332,7 @@
             before: function (obj) {
                 //预读本地文件示例，不支持ie8
                 obj.preview(function (index, file, result) {
-                    $('#bigPhoto').attr('src', result.path); //图片链接（base64）
+                    $('#bigPhoto').attr('src', result); //图片链接（base64）
                 });
             }
             , done: function (res) {

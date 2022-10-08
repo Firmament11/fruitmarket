@@ -22,8 +22,8 @@ import java.util.UUID;
 public class Constant {
 
 
-    public static final String FILEUPLOAD_PATH = "D:\\BaiduNetdiskDownload\\Vegetables mall\\LssgProject\\src\\main\\webapp\\uploadfiles\\";
-    public static final String FILEUPLOAD_PATH_For_Show = "D:\\BaiduNetdiskDownload\\Vegetables mall\\LssgProject\\src\\main\\webapp\\aaaaa\\";
+    public static final String FILEUPLOAD_PATH = "F:\\WorkSpaces\\IdeaProjects\\mall\\SSM\\Mall_2019\\src\\main\\webapp\\uploadfiles\\";
+    public static final String FILEUPLOAD_PATH_For_Show = System.getProperty("user.dir");
 
     public static Map FileUploadUtils(HttpServletRequest request, MultipartFile file , String dir) throws IOException {
         // 图片新名字
@@ -42,9 +42,9 @@ public class Constant {
         File pic = new File(uploadFiles +"\\" + name + exeName);
         // 保存图片到本地磁盘
         file.transferTo(pic);
-        createMultipartFileByPath(uploadFiles+"\\" + name + exeName,"notice");
+        createMultipartFileByPath(uploadFiles+"\\" + name + exeName,dir);
         Map map=new HashMap();
-        map.put("path", name + exeName);
+        map.put("path1", name + exeName);
         return map;
     }
 

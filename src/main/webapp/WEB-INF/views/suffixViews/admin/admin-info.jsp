@@ -181,7 +181,6 @@
                 data: JSON.stringify(object),
                 // 请求成功的回调
                 success: function (data) {
-                    console.log("data--->"+data);
                     $('.userName').text(data.adminName);
                     $('#adminName').val(data.adminName);
                     //特殊数据单独绑定,绑定照片信息
@@ -203,7 +202,6 @@
 
 //               请求成功的回调
                 success: function (data) {
-                    console.log("data--->"+data);
                     if (data>0) {
 
                     } else {
@@ -221,7 +219,6 @@
             var adminImg = $("#imgPath").val();
             var adminName = $('#adminName').val();
             var obj = {"adminImg":adminImg,"adminPwd":adminPwd,"adminId":adminId,"adminName":adminName};
-            console.log(obj);
             //2提交ajax请求修改信息
             $.ajax({
                 type: 'post',
@@ -266,7 +263,6 @@
         /*layui.upload({
           url: './upload.json' //上传接口
           ,success: function(res){ //上传成功后的回调
-              console.log(res);
             $('#LAY_demo_upload').attr('src',res.url);
           }
         });*/
@@ -325,7 +321,6 @@
             data:formData,
             success:function(data){
                 if(data.status == 1){
-                    console.log(data.image_name);
                     layer.closeAll('loading');
                     //layer.msg(data.info,{icon:1,time:1000});
                     $("#pimages").attr('src',data.image_name);

@@ -65,7 +65,6 @@ function getQueryVariable(variable)
 
 function submitAddress(orderId) {
     $('.modal-footer .addBtn').click(function () {
-        //console.log("orderId--->"+orderId);
         var addressUserName = $('.modal-body #addressUserName').val();
         var addressName = $('.modal-body #city').val();
         var addressAddr = $('.modal-body #addressAddr').val();
@@ -118,7 +117,6 @@ function showAddress() {
         timeout: 20000,
         url: "/address/findAllAddressByUserId",
         success : function (result) {
-            console.log("result--->"+result);
             //江西省-抚州市-乐安县 ---》江西抚州(罗伟收)
 
             for(var i =0;i<result.length;i++){
@@ -187,7 +185,6 @@ function charge(ps,addressAddr,tel,userName,addressId) {
  * 回显地址信息
  * */
 function onclick_open1(addressId) {
-    console.log("我被触发了");
     $(".shade_content").removeAttr("hidden");
     $(".shade_content").css("display","block");
     $(".shade").removeAttr("hidden");
@@ -338,7 +335,6 @@ function submitOrder() {
                                         "productIds":productIds
                                     },
                                     success : function (result){
-                                        console.log("result--->"+result);
                                     },error : function (data){
                                         console.log(data.responseText);
                                     }

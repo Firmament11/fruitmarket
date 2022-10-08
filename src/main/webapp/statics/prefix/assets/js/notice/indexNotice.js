@@ -67,9 +67,7 @@ function showNoticeClass() {
         success : function (result) {
             var sHtml = "";
             var aHtml = "";
-            //console.log("result--->"+result);
             for(var i=0;i<result.length;i++){
-                console.log("result[i].publicClassName--->"+result[i].publicClassName);
 
                sHtml += "<div class=\"single_slider d-flex align-items-center\" data-bgimg=\"/uploadfiles/notice/"+result[i].publicClassImg+"\">\n" +
                    "            <div class=\"container\">\n" +
@@ -137,10 +135,7 @@ function showProduct(data,index) {
         timeout: 20000,
         url: "/LssgProduct/findSomeProductByMap",
         success : function (result){
-            console.log("result----1---->"+result);
             var productHtml = "";
-
-
             if(result.length%2==0){
                 for(var i=0;i<result.length;i++){
 
@@ -242,16 +237,11 @@ function showProduct(data,index) {
                         "                                    </article>\n" +
                         "\n" +
                         "                                </div>";*/
-
-                    //  console.log("i---------------------->"+i);
                     i++;
 
                 }
             }else if(result.length%2==1){
                 for(var i=0;i<result.length;i++){
-
-                    console.log("length----------->"+result.length);
-
                     if(i == result.length-1){
                         i=i-1;
                     }
@@ -355,8 +345,6 @@ function showProduct(data,index) {
                         "\n" +
                         "                                </div>";*/
 
-                    //  console.log("i---------------------->"+i);
-
                     if(i<=result.length-2){
                         i++;
                     }else{
@@ -438,14 +426,8 @@ function showProduct1(data,index) {
         timeout: 20000,
         url: "/LssgProduct/findSomeProductByMap",
         success : function (result){
-            console.log("result---->"+result);
             var productHtml = "";
-            console.log("result.length---->"+result.length);
             for(var i=0;i<result.length-1;i++){
-                console.log("result[i].productId---->"+result[i].productId);
-                console.log("result[i].productName---->"+result[i].productName);
-                console.log("result[i].productMallPrice---->"+result[i].productMallPrice);
-                console.log("result[i].productMarketPrice---->"+result[i].productMarketPrice);
 
 
 
@@ -701,9 +683,7 @@ function showProduct3(index) {
         timeout: 20000,
         url: "/LssgProduct/findSomeProductByProduct",
         success : function (result){
-            console.log("result----1---->"+result);
             var productHtml = "";
-            console.log("result.length-- 1--------->"+result.length);
             for(var i=0;i<result.length;i++){
 
                 productHtml += "<article class=\"single_product\">\n" +
@@ -797,16 +777,9 @@ function showProduct4(data,index) {
         timeout: 20000,
         url: "/LssgProduct/findSomeProductByMap",
         success : function (result){
-            console.log("result---->"+result);
             var productHtml = "";
-            console.log("result.length---->"+result.length);
 
             for(var i=0;i<result.length-1;i++){
-                console.log("result[i].productId---->"+result[i].productId);
-                console.log("result[i].productName---->"+result[i].productName);
-                console.log("result[i].productMallPrice---->"+result[i].productMallPrice);
-                console.log("result[i].productMarketPrice---->"+result[i].productMarketPrice);
-
                 productHtml = "<div class=\"product_items\">\n" +
                     "                            <article class=\"single_product\">\n" +
                     "                                <figure>\n" +
@@ -884,9 +857,6 @@ function showProduct4(data,index) {
                     "                                </figure>\n" +
                     "                            </article>\n" +
                     "                        </div>";
-
-
-                console.log("i---------------------->"+i);
                 i = i+2;
                 $("#p3List").append(productHtml);
             }
@@ -938,14 +908,6 @@ function showMessage() {
         timeout: 20000,
         url: "/message/findAllMessage",
         success : function (result){
-            for(var i=0;i<result.length;i++){
-                console.log("result[i].messageId---->"+result[i].messageId);
-                console.log("result[i].lssgUserInfo---->"+result[i].lssgUserInfo);
-                console.log("result[i].lssgUserLogin---->"+result[i].lssgUserLogin);
-                console.log("result[i].lssgUserInfo.userImg---->"+result[i].lssgUserInfo.userImg);
-                console.log("result[i].lssgUserLogin.userName---->"+result[i].lssgUserLogin.userName);
-
-            }
         },error : function (data){
             alert(data.responseText);
         }

@@ -142,13 +142,10 @@
             switch (obj.event) {
                 case 'getCheckData':
                     var data = checkStatus.data;
-                    console.log("data--->"+data);
                     var list = [];
                     for(var i in data){
-                        console.log("i---->"+i+"\tdata-->"+data[i].publicClassId);
                         list.push(data[i].publicClassId)
                     }
-                    console.log("list--->"+list);
                     if(list.length>0){
                         layer.confirm('真的删除选中行么', function (index) {
                             deleteRows(list);
@@ -175,7 +172,6 @@
 
 //               请求成功的回调
                 success: function (data) {
-                    console.log("data--->"+data);
                     if (data > 0) {
                         table.reload('demo');
                     }
@@ -195,7 +191,6 @@
                 dataType: "JSON",
                 contentType: "application/json; charset=utf-8",
                 success: function (data) {
-                    console.log("data--->"+data);
                     if (data > 0) {
                         layer.msg("您已经成功删除"+data+"条记录！", {
                             icon: 1,
@@ -215,20 +210,14 @@
         //监听行工具事件
         table.on('tool(test)', function (obj) {
             var data = obj.data;
-            console.log("data--->"+data);
-            for(var i in data){
-                console.log("i---->"+i+"\tdata-->"+data[i]);
-            }
             //执行删除操作
             if (obj.event === 'del') {
                 layer.confirm('真的删除行么', function (index) {
-                    console.log("data.publicClassId--->"+data.publicClassId);
                     deleteRow(data.publicClassId);
                     layer.close(index);
                 });
             } else if (obj.event === 'state') {
                 var publicClassId= data.publicClassId;
-                console.log("publicClassId---->"+publicClassId);
                 member_stop(this,publicClassId,data.publicClassState);
                 table.reload('demo');
             }
@@ -250,7 +239,6 @@
                         traditional: true,
                         dataType: "JSON",
                         success: function (data) {
-                            console.log("data--->"+data);
                             if (data > 0) {
                                 //发异步把用户状态进行更改
                                 $(obj).attr('title','停用');
@@ -274,7 +262,6 @@
                         traditional: true,
                         dataType: "JSON",
                         success: function (data) {
-                            console.log("data--->"+data);
                             if (data > 0) {
                                 //发异步把用户状态进行更改
                                 $(obj).attr('title','启用');

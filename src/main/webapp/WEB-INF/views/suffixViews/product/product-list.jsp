@@ -66,9 +66,9 @@
 
 </style>
 <script type="text/html" id="barDemo">
-    <a style="text-decoration:none" title="停用">
-        <i class="layui-icon">&#xe601;</i>
-    </a>
+<%--    <a style="text-decoration:none" title="停用">--%>
+<%--        <i class="layui-icon">&#xe601;</i>--%>
+<%--    </a>--%>
     <a title="编辑" class="layui-btn layui-btn-xs" style="text-decoration:none" lay-event="edit" >
         <i class="layui-icon">&#xe642;</i>
     </a>
@@ -115,7 +115,6 @@
         }
         //删除一行数据
         function deleteRow(object) {
-            console.log("aaaaa============>"+object.productId);
             $.ajax({
                 type: 'post',
                 url: "<%=basePath%>/LssgProduct/delete",
@@ -169,13 +168,14 @@
                 , contentType: 'application/json'
                 , toolbar: '#toolbarDemo'
                 , title: '用户数据表'
+                , totalRow: true //开启合计行
                 , request: {
                     pageName: 'curr' //页码的参数名称，默认：page
                     , limitName: 'nums' //每页数据量的参数名，默认：limit
                 }
                 , cols: [[
-                    {type: 'checkbox'}
-                    , {field: 'productId', title: '商品ID', width: 120, fixed: 'right'}
+                    {type: 'checkbox'  }
+                    // , {field: 'productId', title: '商品ID', width: 120}
                     , {field: 'productName', title: '商品名称', width: 120}
                     , {field: 'productUpTime', title: '上市时间', width: 120, templet: function(d){
                             if (d.productUpTime == null)
@@ -194,8 +194,8 @@
                         }
                     }
                     , {field: 'productPhoto', title: '图片路径',  templet: '#photoImg1',width: 120}
-                    , {field: 'smallPhoto', title: '大图路径', templet: '#photoImg2',width: 120}
-                    , {field: 'bigPhoto', title: '小图路径', templet: '#photoImg3',width: 120}
+                    // , {field: 'smallPhoto', title: '大图路径', templet: '#photoImg2',width: 120}
+                    // , {field: 'bigPhoto', title: '小图路径', templet: '#photoImg3',width: 120}
                     , {field: 'productMarketPrice', title: '市场价格', width: 120}
                     , {field: 'productMallPrice', title: '商城价格', width: 120}
                     , {field: 'productNum', title: '商品库存', width: 120}
@@ -208,14 +208,14 @@
                             return "<input type=\"checkbox\" name=\"zzz\" id=\"stateBtn\" lay-filter=\"switchProductClass\" lay-skin=\"switch\"\n" +
                                 "            switch_payment_state='"+d.isState+"' lay-text=\"上架|下架\" switch_payment_id='"+d.productId+"'>";
                         }}
-                    , {field: 'productAddr', title: '商品产地', width: 120}
+                    , {field: 'productAddr', title: '商品产地', width: 180}
                     , {field: 'productNotes', title: '备注', width: 120}
                     , {
-                        field: 'lssgProductClass.productClassId', title: '商品类别', width: 200, templet: function (d) {
+                        field: 'lssgProductClass.productClassId', title: '商品类别', width: 100, templet: function (d) {
                             return '<span style="color: #c00;">' + d.lssgProductClass.productClassName + '</span>'
                         }
                     }
-                    , {fixed: 'right', title: '操作', toolbar: '#barDemo', width: 150}
+                    , {title: '操作', toolbar: '#barDemo', width: 150}
                 ]]
                 , page: true,
                 limit: 5,
@@ -229,7 +229,6 @@
             if (obj.event === 'del') {
                 layer.confirm('真的删除行么', function (index) {
                     deleteRow(data.productId);
-                    console.log("aaaaa============>"+data.productId);
                     layer.close(index);
                 });
             } else if (obj.event === 'edit') {
@@ -251,13 +250,10 @@
             switch (obj.event) {
                 case 'dels':
                     var data = checkStatus.data;
-                    console.log("data--->"+data);
                     var list = [];
                     for(var i in data){
-                        console.log("i---->"+i+"\tdata-->"+data[i].productId);
                         list.push(data[i].productId)
                     }
-                    console.log("list--->"+list);
                     layer.confirm('真的删除选中行么', function (index) {
                         deleteRows(list);
                         //layer.close(index);
@@ -292,9 +288,6 @@
             //获取所需属性值
             var productId = data.elem.attributes['switch_payment_id'].nodeValue;
             var isState = data.elem.attributes['switch_payment_state'].nodeValue;
-
-            console.log(checked);
-            console.log(productId);
             //TODO 此时进行ajax的服务器访问，如果返回数据正常，则进行后面代码的调用
 
             if(isState==1){
@@ -306,7 +299,6 @@
                     type: 'post',
                     dataType: "JSON",
                     success: function (result) {
-                        console.log("result--->"+result);
                         if (result > 0) {
                             data.elem.checked = checked;
 
@@ -326,7 +318,6 @@
                     type: 'post',
                     dataType: "JSON",
                     success: function (result) {
-                        console.log("result--->"+result);
                         if (result > 0) {
                             data.elem.checked = !checked;
 

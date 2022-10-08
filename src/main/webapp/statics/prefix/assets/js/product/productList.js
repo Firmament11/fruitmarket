@@ -3,21 +3,13 @@ var shorts = 0;
 var total = 0;
 $(function () {
     //var productClassId = getQueryVariable("productClassId");
-    //console.log("productClassId--1----->"+productClassId);
     shorts = $('#short option:selected').val();
-    console.log("shorts---1---->"+shorts);
     total = getListData(currentPage,shorts) ;
-    console.log("total--1------->"+total);
-
-
-
 
     $(".short").change(function () {
         shorts = $('#short option:selected').val();
-        console.log("shorts---2---->"+shorts);
         $('#demo2').html('');
         total = getListData(currentPage,shorts);
-        console.log("total--2------->"+total);
         layui.use(['laypage', 'layer'], function(){
             var laypage = layui.laypage
                 ,layer = layui.layer;
@@ -30,15 +22,10 @@ $(function () {
                 ,theme: '#71cc2b'
                 ,curr: location.hash.replace('#!fenye=', '') //获取起始页
                 ,jump: function(obj, first){
-                    //obj包含了当前分页的所有参数，比如：
-                    console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
-                    console.log(obj.limit); //得到每页显示的条数
-
                     //首次不执行
                     if(!first){
                         //清空以前加载的数据
                         $("#productList").html("");
-                        //
                         getListData(obj.curr)
                         //do something
                     }
@@ -54,8 +41,6 @@ $(function () {
 function getListData(currentPage,shorts){
 
     var productClassId2 = getQueryVariable("productClassId");
-    console.log("productClassId2---2------>"+productClassId2);
-    console.log("currentPage--->"+currentPage);
     $.ajax({
         type:"POST",
         async:false,    //设置为同步，中间变量返回中间变量
@@ -69,7 +54,6 @@ function getListData(currentPage,shorts){
         dataType:"json",
         success : function(data){
             total = data.total;
-            console.log("total---->"+total);
             $(".breadcrumb_content h3").html("");
             $(".productClassNameLi").html("");
             $(".breadcrumb_content h3").text(data.list[0].lssgProductClass.productClassName);
@@ -78,8 +62,6 @@ function getListData(currentPage,shorts){
             $(".page_amount p").append("查询到<span style='color: #00ee00'>"+total+"</span>条数")
             var html = "";
             for(var i=0;i<data.list.length;i++) {
-               console.log("data.list[i].productName---->"+data.list[i].productName);
-                console.log("data.list[i].lssgProductClass.productClassName---->"+data.list[i].lssgProductClass.productClassName);
                 html += " <div class=\"col-lg-3 col-md-4 col-sm-6 col-12 \">\n" +
                     "                        <div class=\"single_product\">\n" +
                     "                            <div class=\"product_thumb\">\n" +
@@ -133,10 +115,6 @@ layui.use(['laypage', 'layer','form'], function(){
         ,theme: '#71cc2b'
         ,curr: location.hash.replace('#!fenye=', '') //获取起始页
         ,jump: function(obj, first){
-            //obj包含了当前分页的所有参数，比如：
-            console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
-            console.log(obj.limit); //得到每页显示的条数
-
             //首次不执行
             if(!first){
                 //清空以前加载的数据

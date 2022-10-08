@@ -159,7 +159,6 @@
 
             //1.获取数据
             var obj = serializeArrayToObject('payment');
-            console.log(obj);
             //2提交ajax请求修改信息
             $.ajax({
                 type: 'post',

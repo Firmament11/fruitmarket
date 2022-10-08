@@ -101,9 +101,8 @@ public class LssgOrdersServiceImpl implements LssgOrdersService{
             PageInfo<LssgOrders> lssgOrdersPageInfo = new PageInfo<LssgOrders>(lssgOrdersListl);
             lssgOrdersPageInfo.setTotal(lssgOrdersListl.size());
             return lssgOrdersPageInfo;
-        }else{
-            return null;
         }
+        return null;
     }
 
     public List<LssgOrderAction> findSomeActionByMap(Map map) {
@@ -198,6 +197,7 @@ public class LssgOrdersServiceImpl implements LssgOrdersService{
             }
         }
         return lssgOrderItem1;
+
     }
 
 

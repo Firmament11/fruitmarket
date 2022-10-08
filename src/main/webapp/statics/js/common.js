@@ -8,7 +8,6 @@ function  serializeArrayToObject(formId) {
    //2小循环是为了拿到对应的值。
     //3,解析为json对象：
    // {username='',password='',age='',}
-    console.log("我在这里-------------------------->");
     for (var i = 0; i < test.length; i++) {
         var arr = test[i].name.split(".");//对名称进行分解,为处理属性是对象打下基础
         var objName = "temp";
@@ -16,7 +15,6 @@ function  serializeArrayToObject(formId) {
             if (eval("temp." + arr[j]) == undefined || eval("temp." + arr[j]) == null)
                 eval("temp." + arr[j] + "={}");//当前属性是对象，进行对象实例化
             objName = objName + "." + arr[i];
-            console.log(objName);
         }
         //实例化成JSON对象。
         //temp[test[i].name]=stringToJson(test[i].value);
@@ -133,7 +131,6 @@ layui.define("layer", function(exports){
                 if (hasDefault) {
                     // 默认选中城市
                     defaultSelect($city, cityVal, function(code) {
-                        // console.log(code)
                         // 加载默认城市数据
                         districtData = findPlace(cityData, code);
                         loadDistrict(districtData, true);

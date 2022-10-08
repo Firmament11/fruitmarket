@@ -31,7 +31,6 @@ function addCon($productId) {
             url: "/collect/findOneProductInCollect",
             success: function (result, state) {
                 for (var key in result) {
-                    console.log("result.lssgCollectProducts---->" + result[key]);
                     if (!result[key]) {
                         $.ajax({
                             dataType: "JSON",

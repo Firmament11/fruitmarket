@@ -114,7 +114,6 @@
 
         $('input').eq(0).blur(function () {
             var adminName = $('#adminName').val();
-            console.log("adminName--->"+adminName);
             var lssgAdmin = {"adminName":adminName};
             $.ajax({
                 type: 'post',
@@ -125,7 +124,6 @@
 
 //               请求成功的回调
                 success: function (data) {
-                    console.log("data--->"+data);
                     if (data == null) {
 
                     } else {
@@ -140,8 +138,6 @@
         form.on('submit(add)',
             function(data) {
                 var obj = serializeArrayToObject('adminForm');
-                console.log(data);
-                console.log(obj);
                 //发异步，把数据提交给
                 $.ajax({
                     type: 'post',
@@ -152,7 +148,6 @@
 
                     //请求成功的回调
                     success: function (data) {
-                        console.log("data--->"+data);
                         if (data > 0) {
                             layer.alert("增加成功", {
                                     icon: 6

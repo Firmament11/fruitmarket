@@ -26,13 +26,11 @@ $(function () {
      *
      * */
     total = getListData(currentPage) ;
-    console.log("total--->"+total);
 
     /**
      *
      * */
     var username = $('#username').text();
-    console.log("username---->"+username);
     if(username==''){
         $('.commentDiv').hide();
         $('.reply .reply_content').hide();
@@ -47,7 +45,6 @@ $(function () {
             timeout: 20000,
             url: "/userLoginInfo/findOneUserInfo",
             success : function (result) {
-                console.log("result--->"+result);
                 if(result!=null) {
                     showReply(result.userImg);
                 }
@@ -111,9 +108,7 @@ $(function () {
 
 function getListData(currentPage){
     var productId = getQueryVariable("productId");
-    console.log("productId--->"+productId);
     var rateNum = 0;
-    console.log("currentPage--->"+currentPage);
     $.ajax({
         type:"POST",
         async:false,    //设置为同步，中间变量返回中间变量
@@ -126,19 +121,11 @@ function getListData(currentPage){
         dataType:"json",
         success : function(data){
             total = data.total;
-            console.log("total---->"+total);
             var startList = "";
             var contentHtml = "";
             var replyHtml = "";
             $('.star_rating ul').html('');
-            console.log("data.list.length---->"+data.list.length);
             for(var i=0;i<data.list.length;i++) {
-                console.log("data.list[i].messageName---->"+data.list[i].messageName);
-
-                console.log("data.list[i].lssgUserInfo.userImg---->"+data.list[i].lssgUserInfo.userImg);
-                console.log("data.list[i].lssgUserInfo.lssgUserLogin.userName---->"+data.list[i].lssgUserLogin.userName);
-
-                console.log("data.list[i].productStars---->"+data.list[i].productStars);
                 rateNum = data.list[i].productStars;
 
                 /*$(".layui-rate li").addClass("on");
@@ -158,10 +145,6 @@ function getListData(currentPage){
                         startList += "<li class='on'><a href=\"javascript:;\">"+k+"</a></li>";
 
                     }
-                    console.log("i------------------------->"+i);
-
-
-
                 }
 
 
@@ -198,34 +181,14 @@ function getListData(currentPage){
 
                 $('.delContetn').eq(i).hide();
                 var username = $('#username').text();
-                console.log("username---->"+username);
-                console.log(data.list[i].lssgUserLogin.userName+"-----1---"+username);
                 if(username==data.list[i].lssgUserLogin.userName){
                     $('.delContetn').eq(i).show();
                 }
 
-
-
-
-
-
-                console.log("data.list[i].lssgReplyList---->"+data.list[i].lssgReplyList);
-                console.log("data.list[i].lssgReplyList.length---->"+data.list[i].lssgReplyList.length);
                 if(data.list[i].lssgReplyList.length==0){
                     console.log("无回复信息")
                 }else{
                     $.each(data.list[i].lssgReplyList,function (j,value){
-                        console.log("value.replyId--->"+j+"------>"+value.replyId);
-                        console.log("value.replyName--->"+j+"------>"+value.replyName);
-                        console.log("value.lssgUserInfo--->"+j+"------>"+value.lssgUserInfo);
-
-                        console.log("value.replyUrl--->"+j+"------>"+value.replyUrl);
-
-
-                        console.log("value.lssgUserLogin--->"+j+"------>"+value.lssgUserLogin);
-                        console.log("value.lssgUserLogin.userName--->"+j+"------>"+value.lssgUserLogin.userName);
-                        console.log("data.list[i].lssgUserLogin.userName--->"+j+"------>"+data.list[i].lssgUserLogin.userName);
-
                         replyHtml = "<div class=\"reviews_comment_box reply_box\">\n" +
                             "                                        <div class=\"comment_thmb \">\n" +
                             "                                            <img class='getgold_top_head_img' src=\"/uploadfiles/userImg/"+value.replyUrl+"\" alt=\"\">\n" +
@@ -246,8 +209,6 @@ function getListData(currentPage){
                         ($('.conts').eq(i)).after(replyHtml);
                         $('.delContetn').eq(j).hide();
                         var username = $('#username').text();
-                        console.log("username---->"+username);
-                        console.log(data.list[i].lssgUserLogin.userName+"----2----"+username);
                         if(username==data.list[i].lssgUserLogin.userName){
                             $('.delContetn').eq(j).show();
                         }
@@ -277,10 +238,6 @@ layui.use(['laypage', 'layer'], function() {
         , theme: '#71cc2b'
         , curr: location.hash.replace('#!fenye=', '') //获取起始页
         , jump: function (obj, first) {
-            //obj包含了当前分页的所有参数，比如：
-            console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
-            console.log(obj.limit); //得到每页显示的条数
-
             //首次不执行
             if (!first) {
                 //清空以前加载的数据
@@ -305,7 +262,6 @@ function showReply(userImg){
     $(".comment-send").remove("");
 
     $(".reply_content").click(function () {
-        console.log("1234567879");
         i++;
         $(".comment-send").remove("");
         $(".reviews_comment_box").after("<div class=\"comment-send \" style='display: none'>" +
@@ -328,7 +284,6 @@ function showReply(userImg){
 
 
         $(this).parent(".reviews_meta").parent(".comment_text").parent(".reviews_comment_box").next(".comment-send").css("display","block");
-        console.log("i---->"+i);
         if(i%2==0){
             $(this).parent(".reviews_meta").parent(".comment_text").parent(".reviews_comment_box").next(".comment-send").css("display","none");
         }else{
@@ -337,10 +292,7 @@ function showReply(userImg){
 
         messageId = $(this).next("span").text();
         userId = $(this).next("span").next("span").text();
-        console.log("messageId---1111-->"+messageId);
-        console.log("userId---1111-->"+userId);
         var userName = $(this).parent(".reviews_meta").children("p").children("strong").text();
-        console.log("userName---->"+userName);
         $(this).parent(".reviews_meta").parent(".comment_text").parent(".reviews_comment_box").next(".comment-send").children(".textarea-container").children(".emotion").attr('placeholder',"@"+userName);
         sentReply(messageId,userId);
 
@@ -348,10 +300,8 @@ function showReply(userImg){
 }
 
 function sentReply(messageId,userId) {
-    console.log("messageId-22222--->"+messageId);
     $('.reply_btn .btno').click(function () {
         var replyContent = $(this).parent(".reply_btn").prev('#emotion').val();
-        console.log("replyContent---->"+replyContent);
         var productId = getQueryVariable("productId");
         if(userId==undefined||userId==''){
             userId = 0;
@@ -368,7 +318,6 @@ function sentReply(messageId,userId) {
             timeout: 20000,
             url: "/message/sentReplyMessage",
             success : function (result) {
-                console.log("result--->"+result);
                 if(result>0){
 
                     $("#review_comment").val('');
@@ -528,7 +477,6 @@ function submitComment() {
         var productStars = pingfeng.substring(0,pingfeng.length-2);
         var messageContent = $("#review_comment").val();
         var productId = $('#productId').val();
-        console.log("productId---->"+productId);
         var message = {"productId":productId,"productStars":productStars,"messageContent":messageContent};
         $.ajax({
             dataType: "JSON",
@@ -538,7 +486,6 @@ function submitComment() {
             timeout: 20000,
             url: "/message/sentOneMessage",
             success : function (result) {
-                console.log("result--->"+result);
                 if(result>0){
 
                     $("#review_comment").val('');
@@ -583,7 +530,6 @@ function hiddenShow(productId) {
             timeout: 20000,
             url: "/order/isBuyProduct",
             success : function (result){
-                console.log("result-00000--->"+result);
                 if(result){
                     $('.commentDiv').show();
                     $('.reply .reply_content').show();
@@ -604,9 +550,6 @@ function hiddenShow(productId) {
  *
  * */
 function delMessage(messageId,replyId) {
-
-        console.log("messageId--000-->"+messageId);
-        console.log("replyId--000-->"+replyId);
         if(messageId==undefined){
             messageId = 0
         }
@@ -657,7 +600,6 @@ function getQueryVariable(variable)
  *
  * */
 function showProductDetails(productId) {
-    console.log("productId----->"+productId);
     $.ajax({
         dataType: "JSON",
         data: {
@@ -668,11 +610,6 @@ function showProductDetails(productId) {
         url: "/LssgProduct/findOneProductByProductId",
         success : function (result){
             var html = "";
-            console.log("result---->"+result);
-            console.log("result.productName---->"+result.productName);
-            console.log("result.productPhoto---->"+result.productPhoto);
-            console.log("result.smallPhoto---->"+result.smallPhoto);
-            console.log("result.bigPhoto---->"+result.bigPhoto);
             html = " <div class=\"col-lg-6 col-md-6\">\n" +
                 "                <div class=\"product-details-tab\">\n" +
                 "                    <div id=\"img-1\" class=\"zoomWrapper single-zoom\">\n" +
@@ -794,8 +731,6 @@ function showProductDetails(productId) {
 
 function addCart(productId) {
     var nums = $(".product_variant #num").val();
-    /*console.log("nums---->"+nums);
-    console.log("productId---->"+productId);*/
     var userLoginName = $(".userLoginName a").text().trim().replace(/\s/g,"");
     if(userLoginName==''){
         layer.msg("您还未登入，请先去登入吧！", {
@@ -815,26 +750,7 @@ function addCart(productId) {
             dataType:"json",
             type: "POST",
             success : function (result){
-                console.log("result--->"+result);
-                //console.log("result['cartItems']--->"+result["cartItems"]);
-                console.log("result.cartItems--->"+result.cartItems);
-                // console.log("result.lssgCart.cartItems.get(1)--->"+result.lssgCart["cartItems"].get(1));
                 if(result!=null){
-                    /*for(var keys in result.cartItems){
-                        console.log("result.lssgCart[keys]--->"+"\tkeys--->"+keys+"----->"+result.cartItems[keys]);
-                        console.log("result.lssgCart[keys].buyNum--->"+"\tkeys--->"+keys+"----->"+result.cartItems[keys].buyNum);
-                        console.log("result.lssgCart[keys].cartState--->"+"\tkeys--->"+keys+"----->"+result.cartItems[keys].cartState);
-                        console.log("result.lssgCart[keys].subtotalPrice--->"+"\tkeys--->"+keys+"----->"+result.cartItems[keys].subtotalPrice);
-                        console.log("------------------1-------------------");
-                        console.log("result.lssgCart[keys].lssgProduct--->"+"\tkeys--->"+keys+"----->"+result.cartItems[keys].lssgProduct);
-                        console.log("result.lssgCart[keys].lssgProduct.productName--->"+"\tkeys--->"+keys+"----->"+result.cartItems[keys].lssgProduct.productName);
-                        console.log("result.lssgCart[keys].lssgProduct.productMallPrice--->"+"\tkeys--->"+keys+"----->"+result.cartItems[keys].lssgProduct.productMallPrice);
-                        console.log("------------------2-------------------");
-                        console.log("result.lssgCart[keys].lssgProduct.lssgProductClass--->"+"\tkeys--->"+keys+"----->"+result.cartItems[keys].lssgProduct.lssgProductClass);
-                        console.log("result.lssgCart[keys].lssgProduct.lssgProductClass.productClassName--->"+"\tkeys--->"+keys+"----->"+result.cartItems[keys].lssgProduct.lssgProductClass.productClassName);
-                        console.log("result.lssgCart[keys].lssgProduct.lssgProductClass.productIsShow--->"+"\tkeys--->"+keys+"----->"+result.cartItems[keys].lssgProduct.lssgProductClass.productIsShow);
-                    }*/
-
                     location.href='/beforePage/toCart';
                 }else{
                     location.href='/beforePage/toLogin';
@@ -875,10 +791,7 @@ function showLikeProduct(productId,index) {
         url: "/LssgProduct/findLikeSomeProduct",
         success : function (result){
             var html = "";
-            console.log("result"+result);
-            console.log("result.length"+result.length);
             for(var i=0;i<result.length;i++){
-                console.log("result[i].productName"+result[i].productName);
                 html += "<article class=\"single_product\">\n" +
                     "                            <figure>\n" +
                     "                                <div class=\"product_thumb\">\n" +
@@ -968,10 +881,7 @@ function showHotProduct(productId,index) {
         url: "/LssgProduct/findHotSomeProduct",
         success : function (result){
             var html = "";
-            console.log("result"+result);
-            console.log("result.length"+result.length);
             for(var i=0;i<result.length;i++){
-                console.log("result[i].productName"+result[i].productName);
                 html += "<article class=\"single_product\">\n" +
                     "                            <figure>\n" +
                     "                                <div class=\"product_thumb\">\n" +

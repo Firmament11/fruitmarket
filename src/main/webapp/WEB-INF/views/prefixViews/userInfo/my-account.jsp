@@ -455,12 +455,10 @@
 <script type="text/javascript">
     $("#city").click(function (e) {
         SelCity(this,e);
-        console.log("inout",$(this).val(),new Date())
     });
 
     $("#city1").click(function (e) {
         SelCity(this,e);
-        console.log("inout",$(this).val(),new Date())
     });
 </script>
 <script src="<%= basePath %>/statics/layer-v3.1.1/layer/layer.js"></script>

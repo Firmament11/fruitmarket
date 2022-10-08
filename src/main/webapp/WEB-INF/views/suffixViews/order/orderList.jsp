@@ -130,7 +130,6 @@
                             //绑定类别下拉框
                             if (data != null)
                                 for (var i = 0; i < data.length; i++) {
-                                    console.log("data[i].paymentId"+data[i].paymentId);
                                     $("#payment").append("<option value='" + data[i].paymentId + "'>" + data[i].paymentName + "</option>");
                                 }
                             layui.use(['form'], function () {
@@ -148,7 +147,6 @@
                 var util = layui.util;
                 //默认查询所有订单信息
                 var orderStatus0 = getQueryVariable("orderStatus");
-                console.log("orderStatus0---->"+orderStatus0);
                 if(orderStatus0==2){
                     renderTable('','','','',2);
                 }else if(orderStatus0==4){
@@ -165,10 +163,6 @@
                     var endTime = $('#end').val();
                     var orderId = $('.orderId').val();
                     var orderStatus = $('#orderStatus option:selected').val();
-                    // console.log("paymentId--->"+paymentId);
-                    // console.log("statTime--->"+statTime);
-                    // console.log("orderId--->"+orderId);
-                    // console.log("orderStatus--->"+orderStatus);
                     renderTable(paymentId,statTime,endTime,orderId,orderStatus);
                 });
                 /**
@@ -293,7 +287,6 @@
 
 //               请求成功的回调
                         success: function (data) {
-                            console.log("data--->"+data);
                             if (data > 0) {
                                 table.reload('demo');
                             }
@@ -313,7 +306,6 @@
                         dataType: "JSON",
                         contentType: "application/json; charset=utf-8",
                         success: function (data) {
-                            console.log("data--->"+data);
                             if (data > 0) {
                                 layer.msg("您已经成功删除"+data+"条记录！", {
                                     icon: 1,
@@ -342,7 +334,6 @@
 
 //               请求成功的回调
                         success: function (data) {
-                            console.log("data--->"+data);
                             if (data > 0) {
                                 table.reload('demo');
                             }
@@ -356,21 +347,14 @@
                 //监听行工具事件
                 table.on('tool(test)', function (obj) {
                     var data = obj.data;
-                    console.log("data--->"+data);
-                    for(var i in data){
-                        console.log("i---->"+i+"\tdata-->"+data[i]);
-                    }
                     //执行删除操作
                     if (obj.event === 'del') {
                         layer.confirm('真的删除行么', function (index) {
-                            console.log("data.orderId--->"+data.orderId);
                             deleteRow(data.orderId);
                             layer.close(index);
                         });
                     } else if (obj.event === 'view') {
                         var orderId= data.orderId;
-
-                        console.log("orderId---->"+orderId);
 
                         var tourl = "<%=basePath%>/page/toOrderDetails?orderId="+orderId;
                         layer.open({
@@ -383,7 +367,6 @@
 
                     }else if (obj.event === 'send'){
                         layer.confirm('确定发货吗', function (index) {
-                            console.log("data.orderId--->"+data.orderId);
                             sendOrder(data.orderId,"已发货");
                             layer.close(index);
                         });

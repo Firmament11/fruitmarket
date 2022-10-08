@@ -191,7 +191,6 @@
                     //绑定类别下拉框
                     if (data != null)
                         for (var i = 0; i < data.length; i++) {
-                            console.log("data[i].paymentId"+data[i].paymentId);
                             $("#payment").append("<option value='" + data[i].paymentId + "'>" + data[i].paymentName + "</option>");
                         }
                     layui.use(['form'], function () {
@@ -289,10 +288,8 @@ function delAll(argument) {
     var list = [];
     var i = 0;
     for(var i in data){
-        console.log("i---->"+i+"\tdata-->"+data[i].orderId);
         list.push(data[i].orderId)
     }
-    console.log("list--->"+list);
     layer.confirm('确认要删除吗？' + data,
         function(index) {
             //捉到所有被选中的，发异步进行删除

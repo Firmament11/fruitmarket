@@ -6,7 +6,6 @@ $(function () {
 
    var data1 = Number($(".sendOrder .badge-success").text());
    var data2 = Number($(".noOrder .badge-info").text());
-   console.log("data1--->"+data1);
    $(".totalInfo").append("<span class=\"layui-badge\">"+(data1+data2)+"</span>")
 
 });

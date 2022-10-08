@@ -2,70 +2,153 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="LssgProject:war exploded" />
+      <artifact name="Mall_2019:war exploded" />
     </artifacts-to-build>
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e128ea65-b0a4-4302-a2fd-7f0cc19d4ef7" name="Default Changelist" comment="1、删除cart数据表&#10;2、修改了order等数据表">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="c5be696f-2ab9-40d8-a8ae-9d01c22edd57" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LssgProject_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6bb4c49b-7f7a-4050-82ac-b07e44ee1711.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6bb4c49b-7f7a-4050-82ac-b07e44ee1711.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ueditor_1_1_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/dao/before/LssgOrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/dao/before/LssgOrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/service/before/LssgOrdersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/service/before/LssgOrdersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/utils/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/utils/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prefixViews/order/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prefixViews/order/checkout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prefixViews/userInfo/my-account.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prefixViews/userInfo/my-account.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/admin/admin-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/admin/admin-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/admin/admin-info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/admin/admin-info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/admin/admin-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/admin/admin-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/contents/content-message-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/contents/content-message-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/contents/content-reply-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/contents/content-reply-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/contents/contentadd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/contents/contentadd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/member/member-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/member/member-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/notice-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/notice-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/notice-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/notice-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/notice-type-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/notice-type-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/noticetype-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/noticetype-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/order/order-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/order/order-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/order/orderList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/order/orderList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/pay/payment-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/pay/payment-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/pay/payment-edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/pay/payment-edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/pay/payment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/pay/payment.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/productClass-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/productClass-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/productClass-update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/productClass-update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/producttype-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/producttype-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/carts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/carts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/comment/comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/comment/comment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/head.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/myAccount/myAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/myAccount/myAccount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/notice/indexNotice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/notice/indexNotice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/notice/notices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/notice/notices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/orderList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/orderList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/orderSuccess.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/orderSuccess.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/collect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/collect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/collectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/collectList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/productList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/productList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/queryProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/queryProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/countIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/countIndex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/orderView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/orderView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/xcity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/xcity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/jsp/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/jsp/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/jsp/controller.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/jsp/controller.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/0a3dbad8-691b-4d89-8bfb-2812eb14f637.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/23252567-2b47-47aa-b64f-7cb6512e6fac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/2babd62c-218e-4cf1-a61f-2ec09112bc02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/2cbe4094-1ec2-4028-b8f2-5e3ccca8f5c0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/2f141028-f6a8-4d6f-b6db-a7d9cb52de7d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/31631ed2-ccf6-4162-b28e-6f2f720cd927.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/355ad6fa-7a28-4ca8-b9ee-cb296ce6c986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/3daabcf1-0a62-4eff-9251-1dd0d55c3b4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/611a5fce-5049-4fe6-a9d5-dc57ad5f81ef.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/7882f50a-4eb2-43fe-8760-46ac1c920aff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/8682ad2e-0378-4eec-82b9-53ad0d9eca3e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/879b4b8d-a85f-4be9-9b23-ebd370948f97.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/92843520-9315-41b4-88a8-2077d65e72ca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/93fae580-5802-4222-b2e5-b201e9b8f7e3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/aaaa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/ad5f85b3-1302-41c8-bd26-607b7c15cb95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/b087c9d2-5dc0-4070-9506-dda7713c7546.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/b22e29b1-6162-4f6a-a9a9-737292db82a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/b3c68831-d44f-4747-9962-f4107ebbed02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/bdfee9ac-9d0e-457a-8a42-9fc12ea1405a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/bfc58deb-fd5a-451a-a429-2362aae49988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/c10b9c4b-1d43-423b-9a4c-5e1b2cd669f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/c141ab1b-6cc9-4b6b-aa8f-111759fb84d0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/c5a497d8-0597-4e2d-8845-256da11810d0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/d985917c-fdee-4aae-a730-a78e834a57c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/df0746ed-d821-4c9b-9ace-7b4ef1fd92d6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/fccb41e1-fd30-4090-a4ca-4fcbbf1fe4c9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/fd72500d-2a3a-4aab-b990-53a2b0bce41f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/ffc0148a-557b-475a-91ad-408756761dbd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/Exception/MyExceptionResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/Exception/MyExceptionResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/cache/JedisClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/cache/JedisClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/AdminPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/AdminPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/LssgPaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/LssgPaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/LssgPublicClassController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/LssgPublicClassController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/LssgPublicInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/LssgPublicInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/fileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/fileUploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/BeforePageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/BeforePageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgAddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgAddressController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgCollectProductsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgCollectProductsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgMessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgMessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgOrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgUserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgUserLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/dao/before/LssgOrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/dao/before/LssgOrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/CountEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/CountEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgCartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgCartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgCollectProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgCollectProducts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgOrderAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgOrderAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgOrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgOrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgOrders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgOrders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgPayment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgPublicClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgPublicClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgPublicInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgPublicInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgReply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgUserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgUserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgUserLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgUserLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/filter/CustomFormAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/filter/CustomFormAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/filter/ShiroPermissionsFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/filter/ShiroPermissionsFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/intercepter/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/intercepter/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/realm/LssgUserLoginRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/realm/LssgUserLoginRealm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/service/before/LssgOrdersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/service/before/LssgOrdersServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/DateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/DateUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/OrderCodeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/OrderCodeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/UUIDUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/UUIDUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="lssg" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Jsp File" />
-        <option value="JavaScript File" />
-        <option value="FxmlFile" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,7 +160,10 @@
     <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1sLdGapNWLvIQKso4kU1QGYA3KY" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Fl6D7K5hqP0QXCmjWhYCybODXU" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -85,78 +171,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589269630768" />
-    <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.25977013" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\BaiduNetdiskDownload\蔬菜项目\LssgProject\src\main\webapp\uploadfiles\notice" />
-      <recent name="D:\BaiduNetdiskDownload\蔬菜项目\LssgProject\lib" />
-      <recent name="D:\javaStudy\IdeaProjects\LssgProject\src\main\webapp\WEB-INF\views\suffixViews\article" />
-      <recent name="D:\javaStudy\IdeaProjects\LssgProject\src\main\webapp\WEB-INF\views\suffixViews\admin" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lianwei.lssg.filter" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\javaStudy\ssm\LssgProject\src\main\java\com\lianwei\lssg\entity" />
-      <recent name="D:\javaStudy\IdeaProjects\LssgProject\src\main\webapp\statics" />
-      <recent name="D:\javaStudy\IdeaProjects\LssgProject\src\main\webapp\statics\prefix\assets\js" />
-      <recent name="D:\javaStudy\IdeaProjects\LssgProject\src\main\webapp\statics\prefix\assets\img" />
-      <recent name="D:\javaStudy\IdeaProjects\LssgProject\src\main\webapp\statics\prefix\assets\js\vendor" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.66">
-    <configuration name="DateUtils" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.lianwei.lssg.utils.DateUtils" />
-      <module name="LssgProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lianwei.lssg.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 8.5.66" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.66" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=utf-8" />
-      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/WorkSpaces/IdeaProjects/mall/SSM/Mall_2019/lib/ueditor-1.1.2.jar",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.38275862",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "cc91beebb7c93ae161db126d4d5a9115",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.66" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.66" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="F:\DevelopmentTool\EnvironmentTools\JDK8\jre" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/beforePage/toIndex" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="LssgProject:war exploded">
+        <artifact name="Mall_2019:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_LssgProject_2" />
-        <option name="DEPLOY_TOMCAT_APPS" value="true" />
-        <option name="PRESERVE_SESSIONS" value="true" />
+        <option name="BASE_DIRECTORY_NAME" value="d5f43a3b-90da-4aff-9e6b-ce6ecb08f9a5" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -164,7 +207,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="2198" />
+        <option name="DEBUG_PORT" value="55315" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -182,6 +225,21 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -214,118 +272,28 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="LssgProject:war exploded" />
+          <artifact name="Mall_2019:war exploded" />
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.DateUtils" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.66" />
-    </list>
   </component>
-  <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration>C:\Users\VULCAN\AppData\Roaming\Subversion</configuration>
-    <supportedVersion>125</supportedVersion>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e128ea65-b0a4-4302-a2fd-7f0cc19d4ef7" name="Default Changelist" comment="" />
-      <created>1588842354811</created>
+      <changelist id="c5be696f-2ab9-40d8-a8ae-9d01c22edd57" name="Changes" comment="" />
+      <created>1665054201270</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588842354811</updated>
-      <workItem from="1588842357553" duration="2135000" />
-      <workItem from="1588844506462" duration="220000" />
-      <workItem from="1588844733826" duration="3867000" />
-      <workItem from="1588858713450" duration="10598000" />
-      <workItem from="1588892693493" duration="36771000" />
-      <workItem from="1588980938654" duration="37606000" />
-      <workItem from="1589069130001" duration="50109000" />
-      <workItem from="1589151828861" duration="32161000" />
-      <workItem from="1589265285123" duration="4208000" />
-      <workItem from="1589380958263" duration="1953000" />
-      <workItem from="1589382956509" duration="750000" />
-      <workItem from="1589383736686" duration="1125000" />
-      <workItem from="1589463776928" duration="3489000" />
-      <workItem from="1589513238086" duration="1272000" />
-      <workItem from="1589533006563" duration="755000" />
-      <workItem from="1589541857944" duration="1010000" />
-      <workItem from="1594523928984" duration="112000" />
-      <workItem from="1620655712209" duration="180000" />
-      <workItem from="1620656507001" duration="2408000" />
-      <workItem from="1620696299417" duration="3682000" />
-      <workItem from="1620706791451" duration="248000" />
-      <workItem from="1620707164044" duration="72000" />
-      <workItem from="1620707263481" duration="940000" />
-      <workItem from="1620971179204" duration="9428000" />
-      <workItem from="1620982150647" duration="6944000" />
-      <workItem from="1621838725356" duration="1126000" />
-      <workItem from="1622356592941" duration="927000" />
-      <workItem from="1622362963234" duration="3698000" />
-      <workItem from="1632110128619" duration="1199000" />
-      <workItem from="1645603505926" duration="487000" />
-      <workItem from="1645673430530" duration="7588000" />
-      <workItem from="1646014416658" duration="122000" />
-      <workItem from="1647758768415" duration="5170000" />
-      <workItem from="1647787473573" duration="1805000" />
-      <workItem from="1647919473690" duration="2416000" />
-      <workItem from="1648604346852" duration="918000" />
-      <workItem from="1648606163564" duration="13755000" />
-      <workItem from="1649294779797" duration="3251000" />
-      <workItem from="1649507591938" duration="3848000" />
-      <workItem from="1649583364882" duration="1362000" />
-      <workItem from="1649656371038" duration="5005000" />
-      <workItem from="1649812720152" duration="11455000" />
-      <workItem from="1649899267806" duration="1254000" />
-      <workItem from="1649900634010" duration="9186000" />
-      <workItem from="1648776981702" duration="1196000" />
-      <workItem from="1651302032689" duration="6076000" />
-      <workItem from="1651549433570" duration="5781000" />
-      <workItem from="1651624073831" duration="4155000" />
-      <workItem from="1649147606966" duration="2607000" />
-      <workItem from="1649195912972" duration="11788000" />
-      <workItem from="1649227999123" duration="1310000" />
-      <workItem from="1649237460092" duration="12796000" />
-      <workItem from="1652072996398" duration="6048000" />
-      <workItem from="1652080121938" duration="14693000" />
-      <workItem from="1652145819319" duration="25274000" />
-      <workItem from="1652179307075" duration="35000" />
-      <workItem from="1652188067815" duration="5415000" />
-      <workItem from="1652232834638" duration="19668000" />
-      <workItem from="1652321327442" duration="5456000" />
-      <workItem from="1652367415801" duration="1763000" />
-      <workItem from="1652450804520" duration="1191000" />
-      <workItem from="1652529620977" duration="39305000" />
-      <workItem from="1652631743482" duration="235000" />
-      <workItem from="1652665165583" duration="13862000" />
-      <workItem from="1652701735229" duration="2380000" />
-      <workItem from="1652751712275" duration="4014000" />
-      <workItem from="1652792285288" duration="2702000" />
-      <workItem from="1652862951120" duration="943000" />
-      <workItem from="1652928185666" duration="6099000" />
-      <workItem from="1652965125406" duration="1918000" />
-      <workItem from="1653012893567" duration="5877000" />
-      <workItem from="1653060844559" duration="2404000" />
-      <workItem from="1653274972384" duration="1011000" />
-      <workItem from="1653312761373" duration="3582000" />
-      <workItem from="1653379962488" duration="3037000" />
-      <workItem from="1653896238515" duration="663000" />
-      <workItem from="1654960182044" duration="491000" />
-      <workItem from="1655483129117" duration="670000" />
-      <workItem from="1655607628700" duration="8206000" />
-      <workItem from="1655703461631" duration="3706000" />
-      <workItem from="1655729745795" duration="681000" />
-      <workItem from="1647841043517" duration="2149000" />
-      <workItem from="1656069471677" duration="661000" />
-      <workItem from="1656475029943" duration="5327000" />
-      <workItem from="1656495348016" duration="3652000" />
-      <workItem from="1656671203239" duration="170000" />
-      <workItem from="1659446601632" duration="3262000" />
+      <updated>1665054201270</updated>
+      <workItem from="1665054204075" duration="748000" />
+      <workItem from="1665054966081" duration="617000" />
+      <workItem from="1665055629194" duration="23850000" />
+      <workItem from="1665158143383" duration="6511000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -337,174 +305,60 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="1、删除cart数据表&#10;2、修改了order等数据表" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、删除cart数据表&#10;2、修改了order等数据表" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="641" y="85" key="#Tomcat_8.5.61" timestamp="1651302135692">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="641" y="85" key="#Tomcat_8.5.61/0.0.1920.1040@0.0.1920.1040" timestamp="1651302135692" />
-    <state x="734" y="396" key="#Tomcat_Server" timestamp="1652630298865">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="734" y="396" key="#Tomcat_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1652630298865" />
-    <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1652616660069">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652616660069" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1655629408837">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1655629408837" />
-    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1652616669681">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1652616669681" />
-    <state x="665" y="157" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1652633420989">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="665" y="157" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1652633420989" />
-    <state x="736" y="386" width="447" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1652665356032">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="736" y="386" width="447" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1652665356032" />
-    <state x="723" y="352" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1652074801434">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="723" y="352" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652074801434" />
-    <state width="1286" height="575" key="DebuggerActiveHint" timestamp="1652669263006">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1286" height="575" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1652669263006" />
-    <state x="442" y="327" key="FileChooserDialogImpl" timestamp="1656070137785">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="442" y="327" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1656070137785" />
-    <state width="1677" height="616" key="GridCell.Tab.0.bottom" timestamp="1652970513071">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
-    <state width="1677" height="616" key="GridCell.Tab.0.center" timestamp="1652970513071">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
-    <state width="1677" height="616" key="GridCell.Tab.0.left" timestamp="1652970513071">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
-    <state width="1677" height="616" key="GridCell.Tab.0.right" timestamp="1652970513071">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
-    <state width="1677" height="616" key="GridCell.Tab.1.bottom" timestamp="1652970513071">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
-    <state width="1677" height="616" key="GridCell.Tab.1.center" timestamp="1652970513071">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
-    <state width="1677" height="616" key="GridCell.Tab.1.left" timestamp="1652970513071">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
-    <state width="1677" height="616" key="GridCell.Tab.1.right" timestamp="1652970513071">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513071" />
-    <state width="1677" height="616" key="GridCell.Tab.2.bottom" timestamp="1652970513072">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
-    <state width="1677" height="616" key="GridCell.Tab.2.center" timestamp="1652970513072">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
-    <state width="1677" height="616" key="GridCell.Tab.2.left" timestamp="1652970513072">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
-    <state width="1677" height="616" key="GridCell.Tab.2.right" timestamp="1652970513072">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
-    <state width="1677" height="616" key="GridCell.Tab.3.bottom" timestamp="1652970513072">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
-    <state width="1677" height="616" key="GridCell.Tab.3.center" timestamp="1652970513072">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
-    <state width="1677" height="616" key="GridCell.Tab.3.left" timestamp="1652970513072">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
-    <state width="1677" height="616" key="GridCell.Tab.3.right" timestamp="1652970513072">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1677" height="616" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652970513072" />
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1652623829498">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652623829498" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1655609352628">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1655609352628" />
-    <state x="681" y="261" width="582" height="524" key="StructurePopup" timestamp="1652260833456">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="681" y="261" width="582" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1652260833456" />
-    <state x="334" y="129" key="new project wizard" timestamp="1656671376802">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="334" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1656671376802" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1652629585001">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1652629585001" />
-    <state x="884" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1659446845832">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="884" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1659446845832" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/fileUploadController.class</url>
-          <line>28</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/lianwei/lssg/utils/Constant.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../DevelopmentTool/Repository/org/springframework/spring-test/5.0.1.RELEASE/spring-test-5.0.1.RELEASE.jar!/org/springframework/mock/web/MockServletContext.class</url>
+          <line>311</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/ueditor-1.1.2.jar!/com/baidu/ueditor/ActionEnter.class</url>
+          <line>41</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lianwei/lssg/service/before/LssgOrdersServiceImpl.java</url>
-          <line>228</line>
-          <option name="timeStamp" value="64" />
+          <url>jar://$PROJECT_DIR$/lib/ueditor-1.1.2.jar!/com/baidu/ueditor/ConfigManager.class</url>
+          <line>56</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lianwei/lssg/utils/MallWebMvcConfig.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="65" />
+          <url>file://$PROJECT_DIR$/src/main/webapp/statics/ueditor/jsp/controller.jsp</url>
+          <line>6</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/statics/ueditor/jsp/controller.jsp</url>
+          <line>7</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/ueditor-1.1.2.jar!/com/baidu/ueditor/ConfigManager.class</url>
+          <line>59</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/ueditor-1.1.2.jar!/com/baidu/ueditor/ConfigManager.class</url>
+          <line>63</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
-        <PinnedItemInfo typeName="java.util.LinkedHashMap$Entry" fieldName="value" />
-        <PinnedItemInfo typeName="java.lang.String" fieldName="value" />
-        <PinnedItemInfo typeName="org.apache.shiro.web.servlet.ShiroHttpSession" fieldName="servletContext" />
-        <PinnedItemInfo typeName="org.apache.commons.fileupload.disk.DiskFileItem" fieldName="headers" />
-        <PinnedItemInfo typeName="com.lianwei.lssg.entity.LssgOrders" fieldName="lssgAddress" />
+        <PinnedItemInfo />
       </pinned-members>
     </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LssgProject$Tomcat_8_5_61.ic" NAME="Tomcat 8.5.61 Coverage Results" MODIFIED="1649149872512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/LssgProject$Tomcat_8_5_66.ic" NAME="Tomcat 8.5.66 Coverage Results" MODIFIED="1652633743607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/LssgProject$Tomcat_8_5_61.ic" NAME="Tomcat 8.5.61 Coverage Results" MODIFIED="1649149872512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

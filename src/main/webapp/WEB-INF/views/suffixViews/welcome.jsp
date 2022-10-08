@@ -164,7 +164,6 @@
 
     // 基于准备好的dom，初始化echarts实例
 
-    console.log(document.getElementById('main'));
     var myChart0 = echarts.init(document.getElementById('main'));
     $(function () {
         $.ajax({
@@ -210,7 +209,6 @@
 
             },error : function (data){
                 alert("数据请求失败");
-                console.log(data.responseText);
 
             }
         })
@@ -290,7 +288,6 @@
                 myChart1.setOption(option);
             },error : function (data){
                 alert("数据请求失败");
-                console.log(data.responseText);
 
             }
         })
@@ -396,12 +393,6 @@
               data : {},
               dataType : "json", //返回数据形式为json
               success : function(result){
-                 // console.log("result.countEntities----->"+result.countEntities);
-                  //console.log("result.categorys---->"+result.categorys);
-                  for(var i=0;i<result.countEntities.length;i++){
-                     // console.log("result.countEntities[i].name----->"+result.countEntities[i].name);
-                     // console.log("result.countEntities[i].value----->"+result.countEntities[i].value);
-                  }
                   // 指定图表的配置项和数据
                   var option = {
                       title: {
@@ -437,8 +428,6 @@
                   myChart.setOption(option);
               },error : function (data){
                   alert("数据请求失败");
-                  console.log(data.responseText);
-
               }
           })
 
@@ -462,7 +451,6 @@
         var nowTime;
 
         nowTime = myYear+'-'+fillZero(myMonth)+'-'+fillZero(myToday)+'&nbsp;&nbsp;'+fillZero(myHour)+':'+fillZero(myMinute)+':'+fillZero(mySecond)+'&nbsp;&nbsp;'+week[myDay]+'&nbsp;&nbsp;';
-        //console.log(nowTime);
         $('#time').html(nowTime);
     };
     function fillZero(str){

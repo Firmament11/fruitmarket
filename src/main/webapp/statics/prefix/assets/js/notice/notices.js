@@ -1,6 +1,5 @@
 var publicClassId = getQueryVariable("publicClassId");
 var publicInfoId = getQueryVariable("publicInfoId");
-console.log("publicInfoId--->"+publicInfoId);
 if(!publicInfoId){
     publicInfoId = null;
 }
@@ -23,14 +22,10 @@ function showInfo(publicClassId,publicInfoId) {
         },
         url: "/publicInfo/findOneClassInfo",
         success: function (result) {
-            console.log("result---->"+result);
             var aHtml = "";
             var oHtml = "";
             if(result!=null){
                 for(var i=0;i<result.length;i++){
-                    console.log("---1--->"+result[i].publicInfoTitle);
-
-                    //console.log("--2---->"+result[i].publicInfoTitle);
                     aHtml = "<figure>\n" +
                         "                            <div class=\"post_header\">\n" +
                         "                                <h3 class=\"post_title\">"+result[0].publicInfoTitle+"</h3>\n" +
@@ -70,12 +65,10 @@ function showSomelikePublicInfo(publicClassId) {
         },
         url: "/publicInfo/findSomePublicClassInfoWithLimit",
         success: function (result) {
-            console.log("result---->"+result);
             var aHtml = "";
             var oHtml = "";
             if(result!=null){
                 for(var i=0;i<result.length;i++){
-                    console.log("---1--->"+result[i].publicInfoTitle);
                     oHtml  += "<div class=\"col-lg-4 col-md-4 col-sm-6\">\n" +
                         "                                <article class=\"single_related\">\n" +
                         "                                    <figure>\n" +

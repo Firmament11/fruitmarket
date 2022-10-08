@@ -204,13 +204,10 @@
             switch (obj.event) {
                 case 'dels':
                     var data = checkStatus.data;
-                    console.log("data--->"+data);
                     var list = [];
                     for(var i in data){
-                        console.log("i---->"+i+"\tdata-->"+data[i].productId);
                         list.push(data[i].productId)
                     }
-                    console.log("list--->"+list);
                     layer.confirm('真的删除选中行么', function (index) {
                         deleteRows(list);
                         //layer.close(index);
@@ -247,11 +244,7 @@
             var messageId = data.elem.attributes['switch_payment_id'].nodeValue;
             var isShow = data.elem.attributes['switch_payment_state'].nodeValue;
 
-            console.log(checked);
-            console.log(messageId);
             //TODO 此时进行ajax的服务器访问，如果返回数据正常，则进行后面代码的调用
-
-            console.log("isShow---->"+isShow);
             if(isShow==1){
                 var data1 = {"isShow":0,"messageId":messageId};
                 $.ajax({
@@ -261,7 +254,6 @@
                     type: 'post',
                     dataType: "JSON",
                     success: function (result) {
-                        console.log("result--->"+result);
                         if (result > 0) {
                             data.elem.checked = checked;
 
@@ -281,7 +273,6 @@
                     type: 'post',
                     dataType: "JSON",
                     success: function (result) {
-                        console.log("result--->"+result);
                         if (result > 0) {
                             data.elem.checked = !checked;
 

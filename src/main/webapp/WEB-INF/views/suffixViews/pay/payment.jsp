@@ -92,8 +92,6 @@
 
         $("#searchByquery").on("click",function(){
             var paymentName = $('#paymentName').val();
-
-            console.log("paymentName------>"+paymentName);
             renderTable(paymentName);
         });
         /**
@@ -151,13 +149,10 @@
             switch (obj.event) {
                 case 'getCheckData':
                     var data = checkStatus.data;
-                    console.log("data--->"+data);
                     var list = [];
                     for(var i in data){
-                        console.log("i---->"+i+"\tdata-->"+data[i].paymentId);
                         list.push(data[i].paymentId)
                     }
-                    console.log("list--->"+list);
                     layer.confirm('真的删除选中行么', function (index) {
                         deleteRows(list);
                         //layer.close(index);
@@ -182,7 +177,6 @@
 
 //               请求成功的回调
                 success: function (data) {
-                    console.log("data--->"+data);
                     if (data > 0) {
                         table.reload('demo');
                     }
@@ -202,7 +196,6 @@
                 dataType: "JSON",
                 contentType: "application/json; charset=utf-8",
                 success: function (data) {
-                    console.log("data--->"+data);
                     if (data > 0) {
                         layer.msg("您已经成功删除"+data+"条记录！", {
                             icon: 1,
@@ -222,20 +215,14 @@
         //监听行工具事件
         table.on('tool(test)', function (obj) {
             var data = obj.data;
-            console.log("data--->"+data);
-            for(var i in data){
-                console.log("i---->"+i+"\tdata-->"+data[i]);
-            }
             //执行删除操作
             if (obj.event === 'del') {
                 layer.confirm('真的删除行么', function (index) {
-                    console.log("data.paymentId--->"+data.paymentId);
                     deleteRow(data.paymentId);
                     layer.close(index);
                 });
             } else if (obj.event === 'edit') {
                 var paymentId= data.paymentId;
-                console.log("paymentId---->"+paymentId);
                 var tourl = "<%=basePath%>/page/toPaymentEdit?paymentId="+paymentId;
                 layer.open({
                     type: 2,
@@ -255,12 +242,8 @@
                 //获取所需属性值
                 var paymentId = data.elem.attributes['switch_payment_id'].nodeValue;
                 var paymentState = data.elem.attributes['switch_payment_state'].nodeValue;
-                //console.log("paymentState---->"+paymentState);
-                console.log(checked);
-                console.log(paymentId);
                 //TODO 此时进行ajax的服务器访问，如果返回数据正常，则进行后面代码的调用
                //var paymentState =  checked ?'0':'1';
-                console.log("paymentState---->"+paymentState);
                 if(paymentState==1){
                     var data1 = {"paymentState":0,"paymentId":paymentId};
                     $.ajax({
@@ -270,7 +253,6 @@
                         type: 'post',
                         dataType: "JSON",
                         success: function (result) {
-                            console.log("result--->"+result);
                             if (result > 0) {
                                 data.elem.checked = checked;
 
@@ -290,7 +272,6 @@
                         type: 'post',
                         dataType: "JSON",
                         success: function (result) {
-                            console.log("result--->"+result);
                             if (result > 0) {
                                 data.elem.checked = !checked;
 

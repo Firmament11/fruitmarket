@@ -11,16 +11,9 @@ $(function () {
         dataType:"json",
         type: "POST",
         success : function (result){
-
-            console.log("result--->"+result);
-
-            console.log("result.cartItems--->"+result.cartItems);
-
                 if (result != null) {
                     showData(result);
-
                 } else {
-                    console.log("111")
                 }
 
         },
@@ -83,7 +76,6 @@ function showData(result) {
 
     $allCheckbox.click(function () {
         if ($(this).is(':checked')) {
-            console.log("$(this)---->" + $(this));
             $(this).next('label').addClass('mark');
         } else {
             $(this).next('label').removeClass('mark')
@@ -203,7 +195,6 @@ function showData(result) {
     $plus.click(function () {
         var $inputVal = $(this).prev('input'),
             $count = Number(parseInt($inputVal.val()) + 1);
-        console.log("$count--->" + $count);
         var $productId = $(this).next('span').text();
         $.ajax({
             url:"/cart/updateCartProductNum",
@@ -214,7 +205,6 @@ function showData(result) {
                 "nums":$count
             },
             success : function (result){
-                console.log("result--->"+result);
                 uls.html('');
                 showData(result);
 
@@ -238,8 +228,6 @@ function showData(result) {
             $count = 1;
         }
         var $productId = $(this).next('input').next('a').next('span').text();
-        console.log("$productId--->" + $productId);
-        console.log("$count--->" + $count);
         if($count>1||$count==1){
             $.ajax({
                 url:"/cart/updateCartProductNum",
@@ -250,7 +238,6 @@ function showData(result) {
                     "nums":$count
                 },
                 success : function (result){
-                    console.log("result--->"+result);
                     uls.html('');
                     showData(result);
 
@@ -275,7 +262,6 @@ function showData(result) {
         /*$priceTotalObj.html('￥' + Number($priceTotal).toFixed(2));*/
 
         var $productId = $(this).next('a').next('span').text();
-        console.log("$productId--->" + $productId);
         $.ajax({
             url:"/cart/updateCartProductNum",
             dataType:"json",
@@ -285,7 +271,6 @@ function showData(result) {
                 "nums":$count
             },
             success : function (result){
-                console.log("result--->"+result);
                 uls.html('');
                 showData(result);
 
@@ -366,7 +351,6 @@ function showData(result) {
         $sonCheckBox.each(function () {
             if ($(this).is(':checked')) {
                 var goods = Number($(this).parents('.order_lists').find('.sum_price').html().substring(1)).toFixed(2);
-                console.log("goods-----》"+goods);
                 /*var n = goods.toFixed(2);*/
                 var num =  parseInt($(this).parents('.order_lists').find('.sum').val());
                 total_money = Number(total_money)+Number(goods);
@@ -375,8 +359,6 @@ function showData(result) {
         });
         $('.total_text').html('￥'+Number(total_money).toFixed(2));
         $('.piece_num').html(total_count);
-
-        // console.log(total_money,total_count);
 
         if(total_money!=0 && total_count!=0){
             if(!calBtn.hasClass('btn_sty')){
@@ -396,18 +378,11 @@ function showData(result) {
  * */
     $(".calBtn").click(function () {
         var productIds = [];
-        console.log("$('.productList input[type=\"checkbox\"]').length------->"+$('.productList input[type="checkbox"]').length);
-        console.log("$('.productList input[type=\"checkbox\"]').is(':checked')------->"+$('.productList input[type="checkbox"]').is(':checked'));
         $('.productList input:checkbox[name=productId]:checked').each(function (i) {
-            console.log(""+$(this).val());
             productIds.push($(this).val())
-
         })
-        console.log("productIds---->"+productIds);
         var totalMoney = $(".totalMoney .total_text").text().substring(1);
         var totalNum = $(".piece .piece_num").text();
-        console.log("totalMoney---->"+totalMoney);
-        console.log("totalNum---->"+totalNum);
         $.ajax({
             url:"/order/submitOrder",
             dataType:"json",
@@ -421,8 +396,6 @@ function showData(result) {
             cache:false,
             async:false,
             success : function (result){
-                console.log("result--->"+result);
-                console.log("result.data--->"+result.data);
                 if(result.data){
 
                     /**
@@ -436,7 +409,6 @@ function showData(result) {
                             "productIds":productIds
                         },
                         success : function (result){
-                            console.log("result--->"+result);
                            /!* uls.html('');
                             totalMoney.text('');    //恢复总计样式
                             totalNum.text('');  //恢复购买数量样式

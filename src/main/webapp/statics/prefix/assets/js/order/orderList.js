@@ -28,9 +28,6 @@ function getListData(currentPage) {
                 $('.main_con .orders').html('');
 
                 for(var i=0;i<data.list.length;i++) {
-                    console.log("data.list[i].lssgAddress.addressId-->"+data.list[i].lssgAddress.addressId);
-                    console.log("data.list[i].lssgAddress.addressUserName-->"+data.list[i].lssgAddress.addressUserName);
-
                     //订单头部信息
                     orderListUl = "<ul class=\"order_list_th w978 clearfix\">\n" +
                         "                    <li class=\"col01\">下单时间："+showTime(data.list[i].doOrderTime)+"</li>\n" +
@@ -116,9 +113,6 @@ layui.use(['laypage', 'layer'], function(){
         ,theme: '#71cc2b'
         ,curr: location.hash.replace('#!fenye=', '') //获取起始页
         ,jump: function(obj, first){
-            //obj包含了当前分页的所有参数，比如：
-            console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
-            console.log(obj.limit); //得到每页显示的条数
 
             //首次不执行
             if(!first){
@@ -175,7 +169,6 @@ function showOrderListByAction(currentPage) {
         success : function (data){
             total1 = data.total;
             if(total1>0){
-               console.log("total1---->"+total1);
                var orderListUl = "";
                var orderTab = "";
                var orderProductList = "";
@@ -265,9 +258,6 @@ layui.use(['laypage', 'layer'], function(){
         ,theme: '#71cc2b'
         ,curr: location.hash.replace('#!fenye=', '') //获取起始页
         ,jump: function(obj, first){
-            //obj包含了当前分页的所有参数，比如：
-            console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
-            console.log(obj.limit); //得到每页显示的条数
             //首次不执行
             if(!first){
                 //清空以前加载的数据
@@ -392,9 +382,6 @@ layui.use(['laypage', 'layer'], function(){
         ,theme: '#71cc2b'
         ,curr: location.hash.replace('#!fenye=', '') //获取起始页
         ,jump: function(obj, first){
-            //obj包含了当前分页的所有参数，比如：
-            console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
-            console.log(obj.limit); //得到每页显示的条数
 
             //首次不执行
             if(!first){
@@ -476,7 +463,6 @@ function showOrderListByActionNoSouHuo(currentPage) {
                        $(".stute a").eq(i).text("去支付");
                        $(".stute a").eq(i).attr("href","/beforePage/toOrderSuccess?orderId="+data.list[i].orderId+"&paymentId="+data.list[i].lssgPayment.paymentId);
                    }
-                   console.log("----------------------------------"+data.list[i].lssgOrderItemList.length);
                    $.each(data.list[i].lssgOrderItemList,function (j,value){
                        orderProductList = "<ul class=\"order_goods_list clearfix\">\n" +
                            "                                <li class=\"col01\"><img src=\"/uploadfiles/productImg/"+value.lssgProduct.productPhoto+"\"></li>\n" +
@@ -549,7 +535,6 @@ function comProduct(orderId) {
         timeout: 20000,
         url: "/order/confirmOrder",
         success : function (result) {
-            console.log("result--->"+result);
             if(result>0){
                 layer.msg("订单完成！", {
                     icon: 1,//提示的样式

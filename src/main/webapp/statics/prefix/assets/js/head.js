@@ -17,7 +17,6 @@ $(function () {
 
 function showUserInfo() {
     var username = $(".userLoginName").text().trim().replace(/\s/g,"");
-    console.log("username---->"+username);
     if(username==''){
         return;
     }else{

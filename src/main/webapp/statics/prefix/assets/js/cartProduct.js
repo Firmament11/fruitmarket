@@ -8,27 +8,10 @@ $(function () {
         dataType:"json",
         type: "POST",
         success : function (result){
-
-            console.log("result--->"+result);
-
-            console.log("result.cartItems--->"+result.cartItems);
             var uls = $(".cartBox .order_content");
             var newUl = '';
             if(result!=null){
                 for(var keys in result.cartItems) {
-                    console.log("result.lssgCart[keys]--->" + "\tkeys--->" + keys + "----->" + result.cartItems[keys]);
-                    console.log("result.lssgCart[keys].buyNum--->" + "\tkeys--->" + keys + "----->" + result.cartItems[keys].buyNum);
-                    console.log("result.lssgCart[keys].cartState--->" + "\tkeys--->" + keys + "----->" + result.cartItems[keys].cartState);
-                    console.log("result.lssgCart[keys].subtotalPrice--->" + "\tkeys--->" + keys + "----->" + result.cartItems[keys].subtotalPrice);
-                    console.log("------------------1-------------------");
-                    console.log("result.lssgCart[keys].lssgProduct--->" + "\tkeys--->" + keys + "----->" + result.cartItems[keys].lssgProduct);
-                    console.log("result.lssgCart[keys].lssgProduct.productName--->" + "\tkeys--->" + keys + "----->" + result.cartItems[keys].lssgProduct.productName);
-                    console.log("result.lssgCart[keys].lssgProduct.productMallPrice--->" + "\tkeys--->" + keys + "----->" + result.cartItems[keys].lssgProduct.productMallPrice);
-                    console.log("------------------2-------------------");
-                    console.log("result.lssgCart[keys].lssgProduct.lssgProductClass--->" + "\tkeys--->" + keys + "----->" + result.cartItems[keys].lssgProduct.lssgProductClass);
-                    console.log("result.lssgCart[keys].lssgProduct.lssgProductClass.productClassName--->" + "\tkeys--->" + keys + "----->" + result.cartItems[keys].lssgProduct.lssgProductClass.productClassName);
-                    console.log("result.lssgCart[keys].lssgProduct.lssgProductClass.productIsShow--->" + "\tkeys--->" + keys + "----->" + result.cartItems[keys].lssgProduct.lssgProductClass.productIsShow);
-
                     newUl = "<ul class=\"order_lists\">\n" +
                         "                        <li class=\"list_chk\">\n" +
                         "                            <input type=\"checkbox\" id=\"checkbox_2\" class=\"son_check\">\n" +
@@ -81,11 +64,7 @@ $(function () {
         $order_lists = $('.order_content'),                       //每个商铺盒子
         $shopCheckbox = $('.shopChoice'),               //每个商铺的checkbox
         $sonCheckBox = $('.son_check');                 //每个商品的checkbox
-    console.log("$allCheckbox--->"+$allCheckbox);
-    console.log("$sonCheckBox--->"+$sonCheckBox);
-
     $allCheckbox.click(function () {
-        console.log("111111111");
         if ($(this).is(':checked')) {
             $(this).next('label').addClass('mark');
         } else {
@@ -97,9 +76,7 @@ $(function () {
     $wholeChexbox.click(function () {
         /*var $checkboxs = $order_lists.find('input[type="checkbox"]');*/
         var $checkboxs = $('.order_content .order_lists .list_chk input[type="checkbox"]');
-        console.log("$checkboxs--->"+$checkboxs);
         if ($(this).is(':checked')) {
-            console.log("我被选中");
             $checkboxs.prop("checked", true);
             $checkboxs.next('label').addClass('mark');
         } else {
@@ -113,7 +90,6 @@ $(function () {
     $('.order_content .order_lists .list_chk input[type="checkbox"]').each(function () {
         $(this).click(function () {
             if ($(this).is(':checked')) {
-                console.log("我被点击了");
                 //判断：所有单个商品是否勾选
                 var len = $sonCheckBox.length;
                 var num = 0;

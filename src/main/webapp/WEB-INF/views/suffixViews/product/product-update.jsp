@@ -454,14 +454,11 @@
             })
         }
 
-
-
         getMessage(getURLParamValue('productId'));
 
         form.on('submit(userForm)', function () {
                 //1.获取数据
                 var obj = serializeArrayToObject('ff');
-                console.log("这里是obj------------->>>>>>"+obj);
                 //2提交ajax请求修改信息
                 $.ajax({
                     type: 'post',
@@ -470,7 +467,6 @@
                     contentType: "application/json; charset=utf-8",
                     cache: true,
                     data: JSON.stringify(obj),
-
 //                请求成功的回调
                     success: function (data) {
                         //alert(JSON.stringify(data));
@@ -514,7 +510,6 @@
         seconds = seconds<10 ? "0"+seconds:seconds;
 
         var time = year+"-"+month+"-"+day+" "+hours+":"+minutes+":"+seconds;
-        // var time = year+"-"+month+"-"+day;
         return time;
     }
 </script>

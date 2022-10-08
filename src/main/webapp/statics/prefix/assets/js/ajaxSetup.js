@@ -1,7 +1,6 @@
 $(function() {
     $.ajaxSetup({
         complete: function (XMLHttpRequest, textStatus) {
-            console.log(textStatus);
             // 通过XMLHttpRequest取得响应头，sessionstatus
             var sessionstatus = XMLHttpRequest.getResponseHeader("sessionstatus");
             if (sessionstatus == "TIMEOUT") {

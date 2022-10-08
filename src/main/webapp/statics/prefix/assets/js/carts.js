@@ -316,9 +316,6 @@ function showData(result) {
         if ($order_content.html().trim() == null || $order_content.html().trim().length == 0) {
             $order_content.parents('.cartBox').remove();
         }*/
-
-        console.log("$productId--->" + $productId);
-        console.log("$count--->" + $count);
         $.ajax({
             url:"/cart/delCartProduct",
             dataType:"json",
@@ -328,7 +325,6 @@ function showData(result) {
                 "nums":$count
             },
             success : function (result){
-                console.log("result--->"+result);
                 uls.html('');
                 showData(result);
 

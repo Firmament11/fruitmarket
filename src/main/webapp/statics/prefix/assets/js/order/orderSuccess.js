@@ -12,15 +12,10 @@ $(function(){
             "orderId":orderId
         },
         success : function (result){
-            console.log("result--->"+result);
-            console.log("result.lssgAddress--->"+result.lssgAddress);
-
             var list = '';
             if(result!=null){
                 doOrderTime = new Date(result.doOrderTime).getTime();
-                console.log("doOrderTime--->"+doOrderTime);
                 var ps = result.lssgAddress.addressName.split("-");
-                console.log("ps--->"+ps);
                 list = "<p>\n" +
                     "                            金额：<span class=\"pay-total\">"+result.orderTotalPrice+"元</span>\n" +
                     "                        </p>\n" +

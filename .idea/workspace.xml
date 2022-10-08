@@ -10,140 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5be696f-2ab9-40d8-a8ae-9d01c22edd57" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LssgProject_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6bb4c49b-7f7a-4050-82ac-b07e44ee1711.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6bb4c49b-7f7a-4050-82ac-b07e44ee1711.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ueditor_1_1_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/.jsdtscope" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/dao/before/LssgOrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/dao/before/LssgOrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/service/before/LssgOrdersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/service/before/LssgOrdersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/utils/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/utils/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prefixViews/order/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prefixViews/order/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prefixViews/userInfo/my-account.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prefixViews/userInfo/my-account.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/admin/admin-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/admin/admin-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/admin/admin-info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/admin/admin-info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/admin/admin-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/admin/admin-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/contents/content-message-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/contents/content-message-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/contents/content-reply-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/contents/content-reply-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/contents/contentadd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/contents/contentadd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/member/member-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/member/member-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/notice-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/notice-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/notice-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/notice-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/notice-type-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/notice-type-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/noticetype-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/notice/noticetype-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/order/order-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/order/order-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/order/orderList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/order/orderList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/pay/payment-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/pay/payment-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/pay/payment-edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/pay/payment-edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/pay/payment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/pay/payment.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/controller/before/LssgOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/controller/before/LssgOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/controller/before/LssgProductClassController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/controller/before/LssgProductClassController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/productClass-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/productClass-add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/productClass-update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/productClass-update.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/producttype-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/producttype-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/welcome.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/ajaxSetup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/ajaxSetup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/cartProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/cartProduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/carts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/carts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/comment/comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/comment/comment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/head.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/myAccount/myAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/myAccount/myAccount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/notice/indexNotice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/notice/indexNotice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/notice/notices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/notice/notices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/orderList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/orderList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/orderSuccess.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/orderSuccess.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/collect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/collect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/collectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/collectList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/productList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/productList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/queryProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/queryProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/countIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/countIndex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/product_cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/product_cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/regist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/regist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/orderView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/orderView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/welcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/xcity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/xcity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/jsp/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/jsp/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/jsp/controller.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/jsp/controller.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/0a3dbad8-691b-4d89-8bfb-2812eb14f637.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/23252567-2b47-47aa-b64f-7cb6512e6fac.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/2babd62c-218e-4cf1-a61f-2ec09112bc02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/2cbe4094-1ec2-4028-b8f2-5e3ccca8f5c0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/2f141028-f6a8-4d6f-b6db-a7d9cb52de7d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/31631ed2-ccf6-4162-b28e-6f2f720cd927.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/355ad6fa-7a28-4ca8-b9ee-cb296ce6c986.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/3daabcf1-0a62-4eff-9251-1dd0d55c3b4d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/611a5fce-5049-4fe6-a9d5-dc57ad5f81ef.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/7882f50a-4eb2-43fe-8760-46ac1c920aff.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/8682ad2e-0378-4eec-82b9-53ad0d9eca3e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/879b4b8d-a85f-4be9-9b23-ebd370948f97.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/92843520-9315-41b4-88a8-2077d65e72ca.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/93fae580-5802-4222-b2e5-b201e9b8f7e3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/aaaa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/ad5f85b3-1302-41c8-bd26-607b7c15cb95.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/b087c9d2-5dc0-4070-9506-dda7713c7546.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/b22e29b1-6162-4f6a-a9a9-737292db82a3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/b3c68831-d44f-4747-9962-f4107ebbed02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/bdfee9ac-9d0e-457a-8a42-9fc12ea1405a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/bfc58deb-fd5a-451a-a429-2362aae49988.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/c10b9c4b-1d43-423b-9a4c-5e1b2cd669f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/c141ab1b-6cc9-4b6b-aa8f-111759fb84d0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/c5a497d8-0597-4e2d-8845-256da11810d0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/d985917c-fdee-4aae-a730-a78e834a57c3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/df0746ed-d821-4c9b-9ace-7b4ef1fd92d6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/fccb41e1-fd30-4090-a4ca-4fcbbf1fe4c9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/fd72500d-2a3a-4aab-b990-53a2b0bce41f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/uploadfiles/productImg/ffc0148a-557b-475a-91ad-408756761dbd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/Exception/MyExceptionResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/Exception/MyExceptionResolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/cache/JedisClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/cache/JedisClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/AdminPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/AdminPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/LssgPaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/LssgPaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/LssgPublicClassController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/LssgPublicClassController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/LssgPublicInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/LssgPublicInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/fileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/admin/fileUploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/BeforePageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/BeforePageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/CartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgAddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgAddressController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgCollectProductsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgCollectProductsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgMessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgMessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/dialogs/wordimage/wordimage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/ueditor.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/ueditor.all.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgOrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgUserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgUserLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/dao/before/LssgOrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/dao/before/LssgOrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/CountEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/CountEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgAddress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgCart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgCartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgCartItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgCollectProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgCollectProducts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgOrderAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgOrderAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgOrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgOrderItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgOrders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgOrders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgPayment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgPublicClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgPublicClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgPublicInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgPublicInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgReply.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgUserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgUserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgUserLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/entity/LssgUserLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/filter/CustomFormAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/filter/CustomFormAuthenticationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/filter/ShiroPermissionsFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/filter/ShiroPermissionsFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/intercepter/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/intercepter/LoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/realm/LssgUserLoginRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/realm/LssgUserLoginRealm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/service/before/LssgOrdersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/service/before/LssgOrdersServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/Constant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/DateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/DateUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/OrderCodeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/OrderCodeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/UUIDUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/utils/UUIDUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgProductClassController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgProductClassController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +68,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.38275862",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "cc91beebb7c93ae161db126d4d5a9115",
     "vue.rearranger.settings.migration": "true"
   }
@@ -288,8 +175,23 @@
       <workItem from="1665054204075" duration="748000" />
       <workItem from="1665054966081" duration="617000" />
       <workItem from="1665055629194" duration="23850000" />
-      <workItem from="1665158143383" duration="6511000" />
+      <workItem from="1665158143383" duration="10600000" />
     </task>
+    <task id="LOCAL-00001" summary="bug修复">
+      <created>1665239148559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665239148559</updated>
+    </task>
+    <task id="LOCAL-00002" summary="bug修复">
+      <created>1665239405216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665239405217</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +207,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bug修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug修复" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -330,16 +236,6 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/statics/ueditor/jsp/controller.jsp</url>
-          <line>6</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/statics/ueditor/jsp/controller.jsp</url>
-          <line>7</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$PROJECT_DIR$/lib/ueditor-1.1.2.jar!/com/baidu/ueditor/ConfigManager.class</url>
           <line>59</line>
           <option name="timeStamp" value="20" />
@@ -348,6 +244,11 @@
           <url>jar://$PROJECT_DIR$/lib/ueditor-1.1.2.jar!/com/baidu/ueditor/ConfigManager.class</url>
           <line>63</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lianwei/lssg/controller/before/LssgProductClassController.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

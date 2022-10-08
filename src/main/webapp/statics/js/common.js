@@ -206,7 +206,6 @@ layui.define("layer", function(exports){
                     loadCity();
                     loadDistrict();
                 }
-                // console.log(data.othis); //得到美化后的DOM对象
             });
             // 市选择
             form.on('select('+city+')', function(data){

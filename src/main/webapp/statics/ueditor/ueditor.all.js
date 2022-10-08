@@ -73,7 +73,6 @@ var browser = UE.browser = function(){
          * @example
          * ```javascript
          * if ( UE.browser.webkit ) {
-         *     console.log( '当前浏览器是webkit内核浏览器' );
          * }
          * ```
          */
@@ -84,7 +83,6 @@ var browser = UE.browser = function(){
          * @example
          * ```javascript
          * if ( UE.browser.mac ) {
-         *     console.log( '当前浏览器运行在mac平台下' );
          * }
          * ```
          */
@@ -95,7 +93,6 @@ var browser = UE.browser = function(){
          * @example
          * ```javascript
          * if ( UE.browser.quirks ) {
-         *     console.log( '当前浏览器运行处于“怪异模式”' );
          * }
          * ```
          */

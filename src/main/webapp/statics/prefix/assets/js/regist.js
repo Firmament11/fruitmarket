@@ -42,14 +42,11 @@ $(function(){
 
         }else{
 			var username = $(this).val();
-			console.log(username);
             $.ajax({
                 url:"http://localhost:8080/userLoginInfo/findOneUserLoginInfo",
                 data:{"username":username},
                 dataType:"JSON",
                 success: function (data) {
-                    console.log("data-->"+data);
-                    console.log("data.userName---->"+data.userName);
                     if(username==data.userName){
                         $(".username_div").text("该用户名已被注册");
                         $(".username_div").css("color",'red');
@@ -146,7 +143,6 @@ $(function(){
             var username = $('input').eq(0).val();
             var userpwd = $('input').eq(1).val();
             var data = {"username":username,"userpwd":userpwd};
-            console.log("data"+data);
             $.ajax({
                 dataType: "json",
                 contentType:'application/json;charset=UTF-8',//关键是要加上这行 ***少了这行会报415错误 //设置json格式

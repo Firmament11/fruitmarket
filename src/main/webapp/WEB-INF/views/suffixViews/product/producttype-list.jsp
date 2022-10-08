@@ -56,10 +56,7 @@
 </div>
 
 <script type="text/html" id="barDemo">
-    <%--<a style="text-decoration:none" title="停用">
-        <i class="layui-icon">&#xe601;</i>
-    </a>--%>
-    <a class="layui-btn layui-btn-primary layui-btn-xs " href="javascript:void(0)" lay-event="edit">编辑</a>
+
     <a title="编辑" class="layui-btn layui-btn-xs" style="text-decoration:none" lay-event="edit" >
         <i class="layui-icon">&#xe642;</i>
     </a>
@@ -85,7 +82,7 @@
         function deleteRow(object) {
             $.ajax({
                 type: 'post',
-                url: "<%=basePath%>/LssgProduct/delete",
+                url: "<%=basePath%>/LssgProductClass/delete",
                 dataType: 'json',
                 contentType: "application/json; charset=utf-8",
                 data: JSON.stringify(object),
@@ -129,7 +126,7 @@
                                 "            switch_payment_state='"+d.productIsShow+"' lay-text=\"启用|禁用\" switch_payment_id='"+d.productClassId+"'>";
                         }}
                     , {field: 'productDescription', title: '描述', width: 420}
-                    /*, {fixed: 'right', title: '操作', toolbar: '#barDemo', width: 150}*/
+                    , {title: '操作', toolbar: '#barDemo', width: 150}
                 ]]
                 , page: true,
                 limit: 5,
@@ -142,12 +139,12 @@
             //执行删除操作
             if (obj.event === 'del') {
                 layer.confirm('真的删除行么', function (index) {
-                    deleteRow(data.productId);
+                    deleteRow(data.productClassId);
                     layer.close(index);
                 });
             } else if (obj.event === 'edit') {
-                var productId= data.productId;
-                var tourl = "<%=basePath%>/LssgProduct/toUpdate?productId="+productId;
+                var productClassId= data.productClassId;
+                var tourl = "<%=basePath%>/LssgProductClass/toUpdate?productClassId="+productClassId;
                 layer.open({
                     type: 2,
                     content: tourl,
@@ -173,7 +170,7 @@
                 case  "search":
                     //对于事件的处理，重新渲染table的数据
                     table.reload('member',{
-                        url: '<%=basePath%>/LssgProduct/findByPage'
+                        url: '<%=basePath%>/LssgProductClass/findByPage'
                         ,where: {username: $("#name").val()}
                     });
                     break;
@@ -207,7 +204,6 @@
                     success: function (result) {
                         if (result > 0) {
                             data.elem.checked = checked;
-
                             form.render('select'); //刷新select选择框渲染
                             table.reload('member');
                             layer.msg('已启用!',{icon: 1,time:1000});

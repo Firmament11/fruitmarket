@@ -206,8 +206,6 @@ public class LssgOrderController {
                                                   @RequestParam("pageSize")Integer pageSize){
         HttpSession session = request.getSession();
         LssgUserLogin lssgUserLogin = (LssgUserLogin) session.getAttribute("lssgUserLogin");
-        System.out.println("orderPayStatus----->"+orderPayStatus);
-        System.out.println("shoppingStatus---->"+shoppingStatus);
         Map map = new HashMap();
         map.put("orderPayStatus",orderPayStatus);
         map.put("shoppingStatus",shoppingStatus);

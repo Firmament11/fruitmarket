@@ -20,6 +20,17 @@ import java.util.Map;
 public class LssgProductClassController {
     @Resource
     private LssgProductClassService impl;
+
+    @RequestMapping("/toAdd")
+    public String toAdd(){
+        return "suffixViews/product/productClass-add";
+    }
+
+    @RequestMapping("/toUpdate")
+    public String toUpate(){
+        return "suffixViews/product/productClass-update";
+    }
+
     @RequestMapping("/findByAll")
     @ResponseBody
         public List<LssgProductClass> findByAll() {
@@ -43,9 +54,6 @@ public class LssgProductClassController {
     @RequestMapping("/delete")
     @ResponseBody
     public int delete(@RequestBody int productClassId) {
-        System.out.println("==============================");
-        System.out.println("传入的ID是:" + productClassId);
-        System.out.println("==============================");
         int result = this.impl.deleteByPrimaryKey(productClassId);
         return result;
     }
@@ -53,9 +61,6 @@ public class LssgProductClassController {
     @RequestMapping("/findOne")
     @ResponseBody
     public Object getMe(@RequestBody Integer productClassId) {
-        System.out.println("==============findOne==============");
-        System.out.println("传入的ID是:" + productClassId);
-        System.out.println("==============findOne==============");
         Object result = this.impl.selectByPrimaryKey(productClassId);
         return result;
     }

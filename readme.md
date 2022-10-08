@@ -25,3 +25,5 @@ git push -u origin "master"
 cd existing_git_repo
 git remote add origin https://gitee.com/im-daddy/mall_2019.git
 git push -u origin "master"
+
+mvn install:install-file -Dfile=F:\WorkSpaces\IdeaProjects\mall\SSM\Mall_2019\lib\ueditor-1.1.2.jar -DgroupId=com.baidu -DartifactId=ueditor -Dversion=1.1.2 -Dpackaging=jar

@@ -11,26 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5be696f-2ab9-40d8-a8ae-9d01c22edd57" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/controller/before/LssgOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/controller/before/LssgOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/controller/before/LssgProductClassController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lianwei/lssg/controller/before/LssgProductClassController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/product-update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/productClass-update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/productClass-update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/producttype-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/suffixViews/product/producttype-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/ajaxSetup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/ajaxSetup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/cartProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/cartProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/carts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/carts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/head.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/orderList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/orderList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/orderSuccess.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/order/orderSuccess.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/product_cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/product/product_cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/regist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/prefix/assets/js/regist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/suffix/js/order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/dialogs/wordimage/wordimage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/ueditor.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/ueditor/ueditor.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgOrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgProductClassController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lianwei/lssg/controller/before/LssgProductClassController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/WorkSpaces/IdeaProjects/mall/SSM/Mall_2019/lib/ueditor-1.1.2.jar",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.38275862",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "cc91beebb7c93ae161db126d4d5a9115",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/WorkSpaces/IdeaProjects/mall/SSM/Mall_2019/lib/ueditor-1.1.2.jar&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.38275862&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;cc91beebb7c93ae161db126d4d5a9115&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.66" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.66" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="F:\DevelopmentTool\EnvironmentTools\JDK8\jre" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/beforePage/toIndex" />
@@ -175,7 +155,8 @@
       <workItem from="1665054204075" duration="748000" />
       <workItem from="1665054966081" duration="617000" />
       <workItem from="1665055629194" duration="23850000" />
-      <workItem from="1665158143383" duration="10600000" />
+      <workItem from="1665158143383" duration="11566000" />
+      <workItem from="1665599818146" duration="1379000" />
     </task>
     <task id="LOCAL-00001" summary="bug修复">
       <created>1665239148559</created>
@@ -191,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665239405217</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修复商品分类">
+      <created>1665245713498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665245713498</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +198,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bug修复" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug修复" />
+    <MESSAGE value="修复商品分类" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复商品分类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

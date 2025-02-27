@@ -1,0 +1,33 @@
+.category .price-h em{
+     position: relative;
+     display: inline-block;
+     *display: inline;
+     *zoom: 1;
+     height: 15px;
+     line-height: 15px;
+     font-family: arial;
+     top: -5px;
+     padding: 0 4px;
+     background: #e4393c;
+     border-radius: 15px;
+     color: #fff;
+     font-size: 10px;
+     margin: 0 0 0 2px;
+}
+
+.ordersInfo em{
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    height: 15px;
+    line-height: 15px;
+    font-family: arial;
+    top: -5px;
+    padding: 0 4px;
+    background: #e4393c;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 10px;
+    margin: 0 0 0 2px;
+}
